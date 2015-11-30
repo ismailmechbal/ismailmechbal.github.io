@@ -1,0 +1,27 @@
+title: Ismail Mechbal
+description: Ismail Mechbal personal blog
+
+url: http://sboura.com
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: redcarpet
+highlighter: pygments
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: ismailmechbal
+   twitter: ismailmechbal
+   email: ismail@unik.ma
+
+google_analytics: "UA-58263416-1"

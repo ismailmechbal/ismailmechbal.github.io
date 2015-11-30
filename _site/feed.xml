@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ismail Mechbal</title>
+    <description>Ismail Mechbal personal blog</description>
+    <link>http://sboura.com/</link>
+    <atom:link href="http://sboura.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 30 Nov 2015 22:32:33 +0000</pubDate>
+    <lastBuildDate>Mon, 30 Nov 2015 22:32:33 +0000</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      
+      <item>
+        <title>Test Post</title>
+        <description>&lt;p&gt;&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;L&lt;/span&gt;
+&lt;img src=&quot;/assets/img/touring.jpg&quot; alt=&quot;&quot;&gt; &lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/img/touring.jpg&quot; alt=&quot;&quot;&gt; 
+    &lt;figcaption&gt;Fig1. - This is an example figcaption&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/assets/img/touring.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Fig1. - This is an example figcaption&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+
+&lt;h2&gt;Unordered List&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;List Item&lt;/li&gt;
+&lt;li&gt;Longer List Item
+
+&lt;ul&gt;
+&lt;li&gt;Nested List Item&lt;/li&gt;
+&lt;li&gt;Nested Item&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;List Item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Ordered List&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;List Item&lt;/li&gt;
+&lt;li&gt;Longer List Item
+
+&lt;ol&gt;
+&lt;li&gt;Nested OL Item&lt;/li&gt;
+&lt;li&gt;Another Nested Item&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;List Item&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Definition List&lt;/h2&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dd&gt;Black hot drink&lt;/dd&gt;
+  &lt;dt&gt;Milk&lt;/dt&gt;
+  &lt;dd&gt;White cold drink&lt;/dd&gt;
+&lt;/dl&gt;
+</description>
+        
+          <description>&lt;p&gt;&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;L&lt;/span&gt;
+&lt;img src=&quot;/assets/img/touring.jpg&quot; alt=&quot;&quot;&gt; &lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 10 Dec 2014 00:00:00 +0000</pubDate>
+        <link>http://sboura.com/blog/test-post/</link>
+        <guid isPermaLink="true">http://sboura.com/blog/test-post/</guid>
+        
+        
+      </item>
+      
+    
+  </channel>
+</rss>
