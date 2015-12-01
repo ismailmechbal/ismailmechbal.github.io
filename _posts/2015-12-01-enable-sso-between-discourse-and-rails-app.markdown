@@ -8,7 +8,9 @@ date:   2015-12-01
 
 2. Add this route to routes.rb
 
+{% highlight ruby %}
 get 'discourse/sso' => 'discourse_sso#sso'
+{% endhighlight %}
 
 3. Create the following controller discourse_sso_controller.rb and add the following into it:
 
