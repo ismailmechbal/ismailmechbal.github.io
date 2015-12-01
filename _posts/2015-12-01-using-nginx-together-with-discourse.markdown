@@ -23,19 +23,23 @@ Change port 80 to 8080
 
 {% highlight ruby %}
 expose:
-  - "8080:80"   # fwd host port 80   to container port 80 (http)
-  - "2222:22" # fwd host port 2222 to container port 22 (ssh)
+  - "8080:80"
+  - "2222:22"
 {% endhighlight %}
 
 Then rebuild and restart the container
+
+{% highlight ruby %}
 cd /var/discourse
 sudo ./launcher rebuild app # To apply the changes
 sudo ./launcher start app
+{% endhighlight %}
 
 ## Setting up http forwarding to direct to this new alternate port (8080)
 
 Create a new virtual host file for Discourse and put in it:
 
+{% highlight ruby %}
 upstream discourse {
 #fail_timeout is optional; I throw it in to see errors quickly
   server 127.0.0.1:8080 fail_timeout=5;
@@ -52,7 +56,7 @@ server {
     proxy_pass http://discourse;
   }
 }
-
+{% endhighlight %}
 
 Sources:
 https://meta.discourse.org/t/using-nginx-alongside-the-docker-install/15282/4
