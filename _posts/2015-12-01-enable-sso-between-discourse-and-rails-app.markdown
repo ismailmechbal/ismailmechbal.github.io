@@ -4,16 +4,16 @@ title:  "Enable SSO between discourse and your rails app"
 date:   2015-12-01
 ---
 
-1. Put the reference implementation - https://github.com/discourse/discourse/blob/master/lib/single_sign_on.rb - in your #{Rails.root}/lib directory
+#### Put the reference implementation - https://github.com/discourse/discourse/blob/master/lib/single_sign_on.rb - in your #{Rails.root}/lib directory
 
-2. Add this route to routes.rb
-```
+#### Add this route to routes.rb
+
 {% highlight ruby %}
 get 'discourse/sso' => 'discourse_sso#sso'
 {% endhighlight %}
-```
-3. Create the following controller discourse_sso_controller.rb and add the following into it:
-```
+
+#### Create the following controller discourse_sso_controller.rb and add the following into it:
+
 {% highlight ruby %}
 require 'single_sign_on'
 
@@ -33,12 +33,12 @@ class DiscourseSsoController < ApplicationController
   end
 end
 {% endhighlight %}
-```
-4. Set up the SSO config in discourse (admin/site_settings/category/login) to have the following
+
+#### Set up the SSO config in discourse (admin/site_settings/category/login) to have the following
 
 sso url: http://your_rails_server/discourse/sso
 sso secret : what you set as MY_SECRET_STRING above
 
-5. Disable other login types in discourse
+#### Disable other login types in discourse
 
-6. You're done
+#### You're done
