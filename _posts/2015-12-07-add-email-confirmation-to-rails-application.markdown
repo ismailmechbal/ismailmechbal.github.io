@@ -41,7 +41,7 @@ Missing host to link to! Please provide the :host parameter, set default_url_opt
 Just add the following line of code to your development, test & production environments file:
 config/environments/development.rb
 {% highlight ruby %}
-config.action_mailer.default_url_options = { :host => 'localhost' }
+config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 {% endhighlight %}
 
 
