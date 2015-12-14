@@ -11,10 +11,9 @@ The book introduces programming concepts without requiring a computer at all, us
 Let see how it goes after reading this book, and probably will write a review about it.
 
 [Link to buy english version from Amazon](http://www.amazon.com/Hello-Ruby-Adventures-Linda-Liukas/dp/1250065003)
-Link to buy swedish version from Adlibris
 
 [Link to buy swedish version from Amazon](https://www.adlibris.com/se/bok/hej-ruby-aventyr-i-datorernas-magiska-varld-9789188123008)
 
 Watch, Linda's talk on TED, The poetry of programming.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-jRREn6ifEQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/-jRREn6ifEQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
