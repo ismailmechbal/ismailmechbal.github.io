@@ -5,89 +5,328 @@
     <description>Ismail Mechbal personal blog</description>
     <link>http://sboura.com/</link>
     <atom:link href="http://sboura.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Nov 2015 22:32:33 +0000</pubDate>
-    <lastBuildDate>Mon, 30 Nov 2015 22:32:33 +0000</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Wed, 13 Apr 2016 18:30:07 +0100</pubDate>
+    <lastBuildDate>Wed, 13 Apr 2016 18:30:07 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
       
       <item>
-        <title>Test Post</title>
-        <description>&lt;p&gt;&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;L&lt;/span&gt;
-&lt;img src=&quot;/assets/img/touring.jpg&quot; alt=&quot;&quot;&gt; &lt;/p&gt;
+        <title>Some quotes to get back again to blogging</title>
+        <description>&lt;p&gt;I took a break from blogging to work on my self, &lt;a href=&quot;http://fourhourworkweek.com/podcast/&quot;&gt;Tim Ferris podcast&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://unmistakablecreative.com/&quot;&gt;the unmistakable creative&lt;/a&gt; have been a great source of inspiration and from where i will be quoting from time to some delightful quotes.&lt;/p&gt;
 
-&lt;figure&gt;
-    &lt;img src=&quot;/assets/img/touring.jpg&quot; alt=&quot;&quot;&gt; 
-    &lt;figcaption&gt;Fig1. - This is an example figcaption&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/assets/img/touring.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Fig1. - This is an example figcaption&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6&gt;Heading 6&lt;/h6&gt;
-
-&lt;h2&gt;Unordered List&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;List Item&lt;/li&gt;
-&lt;li&gt;Longer List Item
-
-&lt;ul&gt;
-&lt;li&gt;Nested List Item&lt;/li&gt;
-&lt;li&gt;Nested Item&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;List Item&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Ordered List&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;List Item&lt;/li&gt;
-&lt;li&gt;Longer List Item
-
-&lt;ol&gt;
-&lt;li&gt;Nested OL Item&lt;/li&gt;
-&lt;li&gt;Another Nested Item&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;List Item&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;Definition List&lt;/h2&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;Coffee&lt;/dt&gt;
-  &lt;dd&gt;Black hot drink&lt;/dd&gt;
-  &lt;dt&gt;Milk&lt;/dt&gt;
-  &lt;dd&gt;White cold drink&lt;/dd&gt;
-&lt;/dl&gt;
+&lt;/p&gt;
 </description>
         
-          <description>&lt;p&gt;&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;L&lt;/span&gt;
-&lt;img src=&quot;/assets/img/touring.jpg&quot; alt=&quot;&quot;&gt; &lt;/p&gt;
+          <description>&lt;p&gt;I took a break from blogging to work on my self, &lt;a href=&quot;http://fourhourworkweek.com/podcast/&quot;&gt;Tim Ferris podcast&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://unmistakablecreative.com/&quot;&gt;the unmistakable creative&lt;/a&gt; have been a great source of inspiration and from where i will be quoting from time to some delightful quotes.&lt;/p&gt;
 </description>
         
-        <pubDate>Wed, 10 Dec 2014 00:00:00 +0000</pubDate>
-        <link>http://sboura.com/blog/test-post/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/test-post/</guid>
+        <pubDate>Wed, 13 Apr 2016 00:00:00 +0100</pubDate>
+        <link>http://sboura.com/blog/some-quotes-to-get-back-again/</link>
+        <guid isPermaLink="true">http://sboura.com/blog/some-quotes-to-get-back-again/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Hello Ruby: Adventures in Coding</title>
+        <description>&lt;p&gt;I recently came across an interesting book called &amp;quot;Hello Ruby: Adventures in Coding&amp;quot; by Linda Liukas (founder of Rails Girls), i just ordered the Swedish version for my daughter who will be extremely happy reading it together with me!&lt;/p&gt;
+
+&lt;p&gt;The book introduces programming concepts without requiring a computer at all, using Ruby, the main character, a small girl with a huge imagination, and the determination to solve any puzzle.&lt;/p&gt;
+
+&lt;p&gt;Let see how it goes after reading this book, and probably will write a review about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.amazon.com/Hello-Ruby-Adventures-Linda-Liukas/dp/1250065003&quot;&gt;Link to buy english version from Amazon&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.adlibris.com/se/bok/hej-ruby-aventyr-i-datorernas-magiska-varld-9789188123008&quot;&gt;Link to buy swedish version from Amazon&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Watch, Linda&amp;#39;s talk on TED, The poetry of programming.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-jRREn6ifEQ?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;I recently came across an interesting book called &amp;quot;Hello Ruby: Adventures in Coding&amp;quot; by Linda Liukas (founder of Rails Girls), i just ordered the Swedish version for my daughter who will be extremely happy reading it together with me!&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 14 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://sboura.com/blog/hello-ruby-adventures-in-coding/</link>
+        <guid isPermaLink="true">http://sboura.com/blog/hello-ruby-adventures-in-coding/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>upgrade Passenger + Nginx on Ubuntu</title>
+        <description>&lt;p&gt;This week Passenger announced a security update and i would like to note how easy it is to upgrade Passenger + Nginx:&lt;/p&gt;
+
+&lt;p&gt;If Passenger was installed through the Phusion Passenger APT repository, then you can upgrade Passenger along with Nginx through APT using the following command:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;upgrade&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;That&amp;#39;s all&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;This week Passenger announced a security update and i would like to note how easy it is to upgrade Passenger + Nginx:&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 09 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://sboura.com/blog/upgrade-passenger-nginx-ubuntu/</link>
+        <guid isPermaLink="true">http://sboura.com/blog/upgrade-passenger-nginx-ubuntu/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Add email confirmation to an already running rails application:</title>
+        <description>&lt;p&gt;To add email confirmation to an already running rails application:&lt;/p&gt;
+
+&lt;h3&gt;Add devise :confirmable to your models/user.rb&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;devise&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:registerable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:confirmable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Add a new migration&lt;/h3&gt;
+
+&lt;p&gt;rails g migration add&lt;em&gt;confirmable&lt;/em&gt;to_devise&lt;/p&gt;
+
+&lt;p&gt;Make sure the contents of the migration is:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AddConfirmableToDevise&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Migration&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;change&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;change_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;:confirmation_token&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:confirmed_at&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:confirmation_sent_at&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;:unconfirmed_email&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;add_index&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:confirmation_token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:unique&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then run your migration with rake db:migrate.&lt;/p&gt;
+
+&lt;h3&gt;If you get the following error:&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;ActionView&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Template&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Error&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to!&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Please&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;provide&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:host&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parameter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default_url_options&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:host&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:only_path&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Just add the following line of code to your development, test &amp;amp; production environments file:
+config/environments/development.rb&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;action_mailer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;default_url_options&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:host&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;localhost:3000&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Just in case you missed it, fix the mailer sender.&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#config/initializers/devise.rb&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mailer_sender&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;hi@youremail.com&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+</description>
+        
+          <description>&lt;p&gt;To add email confirmation to an already running rails application:&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://sboura.com/blog/add-email-confirmation-to-rails-application/</link>
+        <guid isPermaLink="true">http://sboura.com/blog/add-email-confirmation-to-rails-application/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Using nginx together with Discourse</title>
+        <description>&lt;p&gt;Yesterday i tried to install Discourse in a server running nginx, i got two problems that were solved quickly just by googling:&lt;/p&gt;
+
+&lt;h2&gt;Error when starting the container:&lt;/h2&gt;
+
+&lt;p&gt;Error response from daemon: Cannot start container 270d47cd8401c50f13e0a1e51428f5b9833a9480b53bc98735df55b425a70b6d: Error starting userland proxy: listen tcp 0.0.0.0:80: bind: address already in use&lt;/p&gt;
+
+&lt;p&gt;It was expected, because nginx runs on port 80.&lt;/p&gt;
+
+&lt;p&gt;in /var/docker/containers/app.yml there is an entry:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;80:80&amp;quot;&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# fwd host port 80   to container port 80 (http)&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;2222:22&amp;quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# fwd host port 2222 to container port 22 (ssh)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Change port 80 to 8080&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;8080:80&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;2222:22&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then rebuild and restart the container&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;discourse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;/launcher&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rebuild&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# To apply the changes&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;/launcher&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2&gt;Setting up http forwarding to direct to this new alternate port (8080)&lt;/h2&gt;
+
+&lt;p&gt;Create a new virtual host file for Discourse and put in it:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;upstream&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discourse&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#fail_timeout is optional; I throw it in to see errors quickly&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8080&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fail_timeout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# configure the virtual host&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# replace with your domain name&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;server_name&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;forum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myappconverter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;location&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;proxy_set_header&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Forwarded&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;For&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$proxy_add_x_forwarded_for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;proxy_set_header&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Host&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$http_host&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;proxy_redirect&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;off&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#pass to the upstream discourse server mentioned above&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;proxy_pass&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;discourse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Sources:
+https://meta.discourse.org/t/using-nginx-alongside-the-docker-install/15282/4
+http://mdworld.nl/blog/mypc/2014/11/16/discourse-ubuntu/&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;Yesterday i tried to install Discourse in a server running nginx, i got two problems that were solved quickly just by googling:&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://sboura.com/blog/using-nginx-together-with-discourse/</link>
+        <guid isPermaLink="true">http://sboura.com/blog/using-nginx-together-with-discourse/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>We wanted flying cars, instead we got 140 characters</title>
+        <description>&lt;p&gt;While reading &lt;a href=&quot;http://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233&quot;&gt;Elon Musk&lt;/a&gt; biography by Ashlee, a remarkable quote by Peter Thiel marked in my mind and i decided to share it with whoever is reading this post.&lt;/p&gt;
+
+&lt;blockquote&gt;We wanted flying cars, instead we got 140 characters&lt;/blockquote&gt;
+
+&lt;p&gt;Founders Fund, where Peter Thiel is a co-founder has published an interesting manifesto of sorts, called &lt;a href=&quot;http://foundersfund.com/the-future&quot;&gt;What Happened To The Future?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Related to this subject, Peter Thiel book &lt;a href=&quot;http://www.amazon.com/gp/product/0804139296&quot;&gt;Zero to One: Notes on Startups, or How to Build the Future&lt;/a&gt; is worth reading.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;While reading &lt;a href=&quot;http://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233&quot;&gt;Elon Musk&lt;/a&gt; biography by Ashlee, a remarkable quote by Peter Thiel marked in my mind and i decided to share it with whoever is reading this post.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://sboura.com/blog/startup-we-wanted-flying-cars-instead-we-got-140-characters/</link>
+        <guid isPermaLink="true">http://sboura.com/blog/startup-we-wanted-flying-cars-instead-we-got-140-characters/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>How to stop disposable email services such as mailinator from registering to your website</title>
+        <description>&lt;p&gt;It is very easy, simply add the gem &amp;quot;valid_email2&amp;quot;&lt;/p&gt;
+
+&lt;h3&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;Add this line to your application&amp;#39;s Gemfile:
+gem &amp;quot;valid_email2&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;And then execute:
+$ bundle&lt;/p&gt;
+
+&lt;h3&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;Use with ActiveModel&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;devise&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:database_authenticatable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:registerable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+         &lt;span class=&quot;ss&quot;&gt;:recoverable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:rememberable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:trackable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:validatable&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;validates&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;disposable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;More options:
+https://github.com/lisinge/valid_email2&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;It is very easy, simply add the gem &amp;quot;valid_email2&amp;quot;&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://sboura.com/blog/how-to-stop-disposable-email-services-from-registering/</link>
+        <guid isPermaLink="true">http://sboura.com/blog/how-to-stop-disposable-email-services-from-registering/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Enable SSO between discourse and your rails app</title>
+        <description>&lt;h4&gt;Put the reference implementation - https://github.com/discourse/discourse/blob/master/lib/single&lt;em&gt;sign&lt;/em&gt;on.rb - in your #{Rails.root}/lib directory&lt;/h4&gt;
+
+&lt;h4&gt;Add this route to routes.rb&lt;/h4&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;discourse/sso&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;discourse_sso#sso&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4&gt;Create the following controller discourse&lt;em&gt;sso&lt;/em&gt;controller.rb and add the following into it:&lt;/h4&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;single_sign_on&amp;#39;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DiscourseSsoController&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ApplicationController&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;before_action&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:authenticate_user!&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# ensures user must login&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sso&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;secret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;MY_SECRET_STRING&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sso&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SingleSignOn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;query_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current_user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# from devise&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current_user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_name&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# this is a custom method on the User class&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;username&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current_user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# from devise&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;external_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current_user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# from devise&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sso_secret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secret&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;redirect_to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;http://your_discource_server/session/sso_login&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4&gt;Set up the SSO config in discourse (admin/site_settings/category/login) to have the following&lt;/h4&gt;
+
+&lt;p&gt;sso url: http://your&lt;em&gt;rails&lt;/em&gt;server/discourse/sso
+sso secret : what you set as MY&lt;em&gt;SECRET&lt;/em&gt;STRING above&lt;/p&gt;
+
+&lt;h4&gt;Disable other login types in discourse&lt;/h4&gt;
+
+&lt;h4&gt;You&amp;#39;re done&lt;/h4&gt;
+</description>
+        
+          <description>&lt;h4&gt;Put the reference implementation - https://github.com/discourse/discourse/blob/master/lib/single&lt;em&gt;sign&lt;/em&gt;on.rb - in your #{Rails.root}/lib directory&lt;/h4&gt;
+</description>
+        
+        <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://sboura.com/blog/enable-sso-between-discourse-and-rails-app/</link>
+        <guid isPermaLink="true">http://sboura.com/blog/enable-sso-between-discourse-and-rails-app/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>My first boring post</title>
+        <description>&lt;p&gt;It took some time before i decided to start writing my own blog and document mostly technical challenges that i face, and most probably solutions to them.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;It took some time before i decided to start writing my own blog and document mostly technical challenges that i face, and most probably solutions to them.&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
+        <link>http://sboura.com/blog/first-boring-post/</link>
+        <guid isPermaLink="true">http://sboura.com/blog/first-boring-post/</guid>
         
         
       </item>

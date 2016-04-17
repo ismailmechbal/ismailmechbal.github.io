@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Ismail Mechbal</title>
+    <title>Enable SSO between discourse and your rails app</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
@@ -19,7 +19,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <!--[if IE 8]><link rel="stylesheet" href="/assets/css/ie.css"><![endif]-->
-    <link rel="canonical" href="http://sboura.com/">
+    <link rel="canonical" href="http://sboura.com/blog/enable-sso-between-discourse-and-rails-app/">
 
     <!-- Modernizr -->
     <script src="/assets/js/modernizr.custom.15390.js" type="text/javascript"></script>
@@ -43,45 +43,47 @@ ga('send', 'pageview');
 	</div>
   <div class="content">
     <div class="container">
-      <div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
-  <ul class="posts noList">
-    
-      <li>
-        <span class="date">April 13, 2016</span>
-        <h3><a class="post-link" href="/blog/some-quotes-to-get-back-again/">Some quotes to get back again to blogging</a></h3>
-        <p class="description">I took a break from blogging to work on my self, Tim Ferris podcast &amp; the unmistakable creative have been a great source of inspiration and from where i will be quoting from time to some delightful quotes.</p>
-      </li>
-    
-      <li>
-        <span class="date">December 14, 2015</span>
-        <h3><a class="post-link" href="/blog/hello-ruby-adventures-in-coding/">Hello Ruby: Adventures in Coding</a></h3>
-        <p class="description">I recently came across an interesting book called &quot;Hello Ruby: Adventures in Coding&quot; by Linda Liukas (founder of Rails Girls), i just ordered the Swedish version for my daughter who will be extremely happy reading it together with me!The...</p>
-      </li>
-    
-      <li>
-        <span class="date">December 09, 2015</span>
-        <h3><a class="post-link" href="/blog/upgrade-passenger-nginx-ubuntu/">upgrade Passenger + Nginx on Ubuntu</a></h3>
-        <p class="description">This week Passenger announced a security update and i would like to note how easy it is to upgrade Passenger + Nginx:If Passenger was installed through the Phusion Passenger APT repository, then you can upgrade Passenger along with Nginx through A...</p>
-      </li>
-    
-      <li>
-        <span class="date">December 07, 2015</span>
-        <h3><a class="post-link" href="/blog/add-email-confirmation-to-rails-application/">Add email confirmation to an already running rails application:</a></h3>
-        <p class="description">To add email confirmation to an already running rails application:Add devise :confirmable to your models/user.rbdevise :registerable, :confirmableAdd a new migrationrails g migration addconfirmableto_deviseMake sure the contents of the migration i...</p>
-      </li>
-    
-      <li>
-        <span class="date">December 01, 2015</span>
-        <h3><a class="post-link" href="/blog/using-nginx-together-with-discourse/">Using nginx together with Discourse</a></h3>
-        <p class="description">Yesterday i tried to install Discourse in a server running nginx, i got two problems that were solved quickly just by googling:Error when starting the container:Error response from daemon: Cannot start container 270d47cd8401c50f13e0a1e51428f5b9833...</p>
-      </li>
-    
-  </ul>
-  <!-- Pagination links -->
-  <div class="pagination">
-    <a href="/articles" class="next button__outline">All Posts</a>
-  </div>
+      <div class="post">
+  
+  <h1 class="postTitle">Enable SSO between discourse and your rails app</h1>
+  <p class="meta">December 01, 2015 | <span class="time">1</span> Minute Read</p>
+  
+  <h4>Put the reference implementation - https://github.com/discourse/discourse/blob/master/lib/single<em>sign</em>on.rb - in your #{Rails.root}/lib directory</h4>
+
+<h4>Add this route to routes.rb</h4>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">get</span> <span class="s1">&#39;discourse/sso&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;discourse_sso#sso&#39;</span></code></pre></figure>
+
+<h4>Create the following controller discourse<em>sso</em>controller.rb and add the following into it:</h4>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;single_sign_on&#39;</span>
+
+<span class="k">class</span> <span class="nc">DiscourseSsoController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+  <span class="n">before_action</span> <span class="ss">:authenticate_user!</span> <span class="c1"># ensures user must login</span>
+
+  <span class="k">def</span> <span class="nf">sso</span>
+    <span class="n">secret</span> <span class="o">=</span> <span class="s2">&quot;MY_SECRET_STRING&quot;</span>
+    <span class="n">sso</span> <span class="o">=</span> <span class="no">SingleSignOn</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">query_string</span><span class="p">,</span> <span class="n">secret</span><span class="p">)</span>
+    <span class="n">sso</span><span class="o">.</span><span class="n">email</span> <span class="o">=</span> <span class="n">current_user</span><span class="o">.</span><span class="n">email</span> <span class="c1"># from devise</span>
+    <span class="n">sso</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">current_user</span><span class="o">.</span><span class="n">full_name</span> <span class="c1"># this is a custom method on the User class</span>
+    <span class="n">sso</span><span class="o">.</span><span class="n">username</span> <span class="o">=</span> <span class="n">current_user</span><span class="o">.</span><span class="n">email</span> <span class="c1"># from devise</span>
+    <span class="n">sso</span><span class="o">.</span><span class="n">external_id</span> <span class="o">=</span> <span class="n">current_user</span><span class="o">.</span><span class="n">id</span> <span class="c1"># from devise</span>
+    <span class="n">sso</span><span class="o">.</span><span class="n">sso_secret</span> <span class="o">=</span> <span class="n">secret</span>
+
+    <span class="n">redirect_to</span> <span class="n">sso</span><span class="o">.</span><span class="n">to_url</span><span class="p">(</span><span class="s2">&quot;http://your_discource_server/session/sso_login&quot;</span><span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></figure>
+
+<h4>Set up the SSO config in discourse (admin/site_settings/category/login) to have the following</h4>
+
+<p>sso url: http://your<em>rails</em>server/discourse/sso
+sso secret : what you set as MY<em>SECRET</em>STRING above</p>
+
+<h4>Disable other login types in discourse</h4>
+
+<h4>You&#39;re done</h4>
+
+
 </div>
 
     </div>

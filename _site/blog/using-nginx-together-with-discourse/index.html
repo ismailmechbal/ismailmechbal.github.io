@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Ismail Mechbal</title>
+    <title>Using nginx together with Discourse</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
@@ -19,7 +19,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <!--[if IE 8]><link rel="stylesheet" href="/assets/css/ie.css"><![endif]-->
-    <link rel="canonical" href="http://sboura.com/">
+    <link rel="canonical" href="http://sboura.com/blog/using-nginx-together-with-discourse/">
 
     <!-- Modernizr -->
     <script src="/assets/js/modernizr.custom.15390.js" type="text/javascript"></script>
@@ -43,45 +43,63 @@ ga('send', 'pageview');
 	</div>
   <div class="content">
     <div class="container">
-      <div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
-  <ul class="posts noList">
-    
-      <li>
-        <span class="date">April 13, 2016</span>
-        <h3><a class="post-link" href="/blog/some-quotes-to-get-back-again/">Some quotes to get back again to blogging</a></h3>
-        <p class="description">I took a break from blogging to work on my self, Tim Ferris podcast &amp; the unmistakable creative have been a great source of inspiration and from where i will be quoting from time to some delightful quotes.</p>
-      </li>
-    
-      <li>
-        <span class="date">December 14, 2015</span>
-        <h3><a class="post-link" href="/blog/hello-ruby-adventures-in-coding/">Hello Ruby: Adventures in Coding</a></h3>
-        <p class="description">I recently came across an interesting book called &quot;Hello Ruby: Adventures in Coding&quot; by Linda Liukas (founder of Rails Girls), i just ordered the Swedish version for my daughter who will be extremely happy reading it together with me!The...</p>
-      </li>
-    
-      <li>
-        <span class="date">December 09, 2015</span>
-        <h3><a class="post-link" href="/blog/upgrade-passenger-nginx-ubuntu/">upgrade Passenger + Nginx on Ubuntu</a></h3>
-        <p class="description">This week Passenger announced a security update and i would like to note how easy it is to upgrade Passenger + Nginx:If Passenger was installed through the Phusion Passenger APT repository, then you can upgrade Passenger along with Nginx through A...</p>
-      </li>
-    
-      <li>
-        <span class="date">December 07, 2015</span>
-        <h3><a class="post-link" href="/blog/add-email-confirmation-to-rails-application/">Add email confirmation to an already running rails application:</a></h3>
-        <p class="description">To add email confirmation to an already running rails application:Add devise :confirmable to your models/user.rbdevise :registerable, :confirmableAdd a new migrationrails g migration addconfirmableto_deviseMake sure the contents of the migration i...</p>
-      </li>
-    
-      <li>
-        <span class="date">December 01, 2015</span>
-        <h3><a class="post-link" href="/blog/using-nginx-together-with-discourse/">Using nginx together with Discourse</a></h3>
-        <p class="description">Yesterday i tried to install Discourse in a server running nginx, i got two problems that were solved quickly just by googling:Error when starting the container:Error response from daemon: Cannot start container 270d47cd8401c50f13e0a1e51428f5b9833...</p>
-      </li>
-    
-  </ul>
-  <!-- Pagination links -->
-  <div class="pagination">
-    <a href="/articles" class="next button__outline">All Posts</a>
-  </div>
+      <div class="post">
+  
+  <h1 class="postTitle">Using nginx together with Discourse</h1>
+  <p class="meta">December 01, 2015 | <span class="time">1</span> Minute Read</p>
+  
+  <p>Yesterday i tried to install Discourse in a server running nginx, i got two problems that were solved quickly just by googling:</p>
+
+<h2>Error when starting the container:</h2>
+
+<p>Error response from daemon: Cannot start container 270d47cd8401c50f13e0a1e51428f5b9833a9480b53bc98735df55b425a70b6d: Error starting userland proxy: listen tcp 0.0.0.0:80: bind: address already in use</p>
+
+<p>It was expected, because nginx runs on port 80.</p>
+
+<p>in /var/docker/containers/app.yml there is an entry:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">expose</span><span class="p">:</span>
+  <span class="o">-</span> <span class="s2">&quot;80:80&quot;</span>   <span class="c1"># fwd host port 80   to container port 80 (http)</span>
+  <span class="o">-</span> <span class="s2">&quot;2222:22&quot;</span> <span class="c1"># fwd host port 2222 to container port 22 (ssh)</span></code></pre></figure>
+
+<p>Change port 80 to 8080</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">expose</span><span class="p">:</span>
+  <span class="o">-</span> <span class="s2">&quot;8080:80&quot;</span>
+  <span class="o">-</span> <span class="s2">&quot;2222:22&quot;</span></code></pre></figure>
+
+<p>Then rebuild and restart the container</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">cd</span> <span class="sr">/var/</span><span class="n">discourse</span>
+<span class="n">sudo</span> <span class="o">.</span><span class="n">/launcher</span> <span class="n">rebuild</span> <span class="n">app</span> <span class="c1"># To apply the changes</span>
+<span class="n">sudo</span> <span class="o">.</span><span class="n">/launcher</span> <span class="n">start</span> <span class="n">app</span></code></pre></figure>
+
+<h2>Setting up http forwarding to direct to this new alternate port (8080)</h2>
+
+<p>Create a new virtual host file for Discourse and put in it:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">upstream</span> <span class="n">discourse</span> <span class="p">{</span>
+<span class="c1">#fail_timeout is optional; I throw it in to see errors quickly</span>
+  <span class="n">server</span> <span class="mi">127</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">1</span><span class="p">:</span><span class="mi">8080</span> <span class="n">fail_timeout</span><span class="o">=</span><span class="mi">5</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="c1"># configure the virtual host</span>
+<span class="n">server</span> <span class="p">{</span>
+  <span class="c1"># replace with your domain name</span>
+  <span class="n">server_name</span> <span class="n">forum</span><span class="o">.</span><span class="n">myappconverter</span><span class="o">.</span><span class="n">com</span><span class="p">;</span>
+  <span class="n">location</span> <span class="o">/</span> <span class="p">{</span>
+    <span class="n">proxy_set_header</span> <span class="n">X</span><span class="o">-</span><span class="no">Forwarded</span><span class="o">-</span><span class="no">For</span> <span class="vg">$proxy_add_x_forwarded_for</span><span class="p">;</span>
+    <span class="n">proxy_set_header</span> <span class="no">Host</span> <span class="vg">$http_host</span><span class="p">;</span>
+    <span class="n">proxy_redirect</span> <span class="n">off</span><span class="p">;</span>
+    <span class="c1">#pass to the upstream discourse server mentioned above</span>
+    <span class="n">proxy_pass</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">discourse</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Sources:
+https://meta.discourse.org/t/using-nginx-alongside-the-docker-install/15282/4
+http://mdworld.nl/blog/mypc/2014/11/16/discourse-ubuntu/</p>
+
+
 </div>
 
     </div>
