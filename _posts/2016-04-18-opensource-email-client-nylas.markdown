@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Opensource email client - Nylas"
-date:   2016-04-17
+date:   2016-04-18
 ---
 
 Checkout Nylas, an opensource email client app. As they describes it, Nylas N1 is the most delightful way to manage your email.
