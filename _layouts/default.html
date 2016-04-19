@@ -2,18 +2,21 @@
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-{% include head.html %}
-<body>
-	<div class="">
-		<h1 class="logo"><a alt="Return to the homepage" href="{{ site.baseurl }}/">I/M</a></h1>
-	</div>
-  <div class="content">
-    <div class="container">
-      {{ content }}
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+  {% include head.html %}
+  <body>
+    <div class="">
+      <h1 class="logo">
+        <a alt="Return to the homepage" href="{{ site.baseurl }}/">Ismail Mechbal (Personal journey)</a>
+      </h1>
     </div>
-  </div>
-  {% include footer.html %}
-  {% include scripts.html %}
-</body>
+    <div class="content">
+      <div class="container">
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
 </html>
