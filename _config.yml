@@ -8,8 +8,8 @@ permalink: blog/:title/
 
 kramdown: redcarpet
 highlighter: rouge
-gems: [jekyll-paginate]
-paginate: 5
+#gems: [jekyll-paginate]
+#paginate: 5
 
 navigation:
  - title: Home
