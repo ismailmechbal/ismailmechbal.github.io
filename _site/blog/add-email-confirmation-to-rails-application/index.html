@@ -2,8 +2,9 @@
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,36 +38,37 @@ ga('send', 'pageview');
  
 </head>
 
-<body>
-	<div class="">
-		<h1 class="logo"><a alt="Return to the homepage" href="/">I/M</a></h1>
-	</div>
-  <div class="content">
-    <div class="container">
-      <div class="post">
+  <body>
+    <div class="">
+      <h1 class="logo">
+        <a alt="Return to the homepage" href="/">I/M</a>
+      </h1>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="post">
   
   <h1 class="postTitle">Add email confirmation to an already running rails application:</h1>
   <p class="meta">December 07, 2015 | <span class="time">1</span> Minute Read</p>
   
   <p>To add email confirmation to an already running rails application:</p>
 
-<h3>Add devise :confirmable to your models/user.rb</h3>
+<h3 id="add-devise-confirmable-to-your-modelsuserrb">Add devise :confirmable to your models/user.rb</h3>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">devise</span> <span class="ss">:registerable</span><span class="p">,</span> <span class="ss">:confirmable</span></code></pre></figure>
 
-<h3>Add a new migration</h3>
-
-<p>rails g migration add<em>confirmable</em>to_devise</p>
+<h3 id="add-a-new-migration">Add a new migration</h3>
+<p>rails g migration add_confirmable_to_devise</p>
 
 <p>Make sure the contents of the migration is:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">AddConfirmableToDevise</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Migration</span>
   <span class="k">def</span> <span class="nf">change</span>
     <span class="n">change_table</span><span class="p">(</span><span class="ss">:users</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
-      <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:confirmation_token</span>
-      <span class="n">t</span><span class="o">.</span><span class="n">datetime</span> <span class="ss">:confirmed_at</span>
-      <span class="n">t</span><span class="o">.</span><span class="n">datetime</span> <span class="ss">:confirmation_sent_at</span>
-      <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:unconfirmed_email</span>
+      <span class="n">t</span><span class="p">.</span><span class="nf">string</span>   <span class="ss">:confirmation_token</span>
+      <span class="n">t</span><span class="p">.</span><span class="nf">datetime</span> <span class="ss">:confirmed_at</span>
+      <span class="n">t</span><span class="p">.</span><span class="nf">datetime</span> <span class="ss">:confirmation_sent_at</span>
+      <span class="n">t</span><span class="p">.</span><span class="nf">string</span>   <span class="ss">:unconfirmed_email</span>
     <span class="k">end</span>
     <span class="n">add_index</span> <span class="ss">:users</span><span class="p">,</span> <span class="ss">:confirmation_token</span><span class="p">,</span> <span class="ss">:unique</span> <span class="o">=&gt;</span> <span class="kp">true</span>
   <span class="k">end</span>
@@ -74,27 +76,28 @@ ga('send', 'pageview');
 
 <p>Then run your migration with rake db:migrate.</p>
 
-<h3>If you get the following error:</h3>
+<h3 id="if-you-get-the-following-error">If you get the following error:</h3>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">ActionView</span><span class="o">::</span><span class="no">Template</span><span class="o">::</span><span class="no">Error</span>
-<span class="no">Missing</span> <span class="n">host</span> <span class="n">to</span> <span class="n">link</span> <span class="n">to!</span> <span class="no">Please</span> <span class="n">provide</span> <span class="n">the</span> <span class="ss">:host</span> <span class="n">parameter</span><span class="p">,</span> <span class="n">set</span> <span class="n">default_url_options</span><span class="o">[</span><span class="ss">:host</span><span class="o">]</span><span class="p">,</span> <span class="ow">or</span> <span class="n">set</span> <span class="ss">:only_path</span> <span class="n">to</span> <span class="kp">true</span></code></pre></figure>
+<span class="no">Missing</span> <span class="n">host</span> <span class="n">to</span> <span class="n">link</span> <span class="n">to!</span> <span class="no">Please</span> <span class="n">provide</span> <span class="n">the</span> <span class="ss">:host</span> <span class="n">parameter</span><span class="p">,</span> <span class="n">set</span> <span class="n">default_url_options</span><span class="p">[</span><span class="ss">:host</span><span class="p">],</span> <span class="n">or</span> <span class="n">set</span> <span class="ss">:only_path</span> <span class="n">to</span> <span class="kp">true</span></code></pre></figure>
 
 <p>Just add the following line of code to your development, test &amp; production environments file:
 config/environments/development.rb</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">config</span><span class="o">.</span><span class="n">action_mailer</span><span class="o">.</span><span class="n">default_url_options</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">:host</span> <span class="o">=&gt;</span> <span class="s1">&#39;localhost:3000&#39;</span> <span class="p">}</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">config</span><span class="p">.</span><span class="nf">action_mailer</span><span class="p">.</span><span class="nf">default_url_options</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">:host</span> <span class="o">=&gt;</span> <span class="s1">'localhost:3000'</span> <span class="p">}</span></code></pre></figure>
 
-<h3>Just in case you missed it, fix the mailer sender.</h3>
+<h3 id="just-in-case-you-missed-it-fix-the-mailer-sender">Just in case you missed it, fix the mailer sender.</h3>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#config/initializers/devise.rb</span>
-<span class="n">config</span><span class="o">.</span><span class="n">mailer_sender</span> <span class="o">=</span> <span class="s1">&#39;hi@youremail.com&#39;</span></code></pre></figure>
+<span class="n">config</span><span class="p">.</span><span class="nf">mailer_sender</span> <span class="o">=</span> <span class="s1">'hi@youremail.com'</span></code></pre></figure>
+
 
 
 </div>
 
+      </div>
     </div>
-  </div>
-  <div class="footer">
+    <div class="footer">
    <div class="container">
       <p class="copy">&copy; 2016 <a href="http://sboura.com">Ismail Mechbal</a> <a href="https://github.com/ismailmechbal/ismailmechbal.github.io">Source code</a></p>
 
@@ -127,12 +130,12 @@ config/environments/development.rb</p>
 </div><!-- end .footer -->
 
 
-  <!-- Add jQuery and other scripts -->
+    <!-- Add jQuery and other scripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src=""><\/script>')</script>
 <script src="/assets/js/dropcap.min.js"></script>
 <script src="/assets/js/responsive-nav.min.js"></script>
 <script src="/assets/js/scripts.js"></script>
 
-</body>
+  </body>
 </html>

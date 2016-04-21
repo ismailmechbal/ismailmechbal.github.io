@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>upgrade Passenger + Nginx on Ubuntu</title>
+    <title>Ismail Mechbal</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
@@ -20,7 +20,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <!--[if IE 8]><link rel="stylesheet" href="/assets/css/ie.css"><![endif]-->
-    <link rel="canonical" href="http://sboura.com/blog/upgrade-passenger-nginx-ubuntu/">
+    <link rel="canonical" href="http://sboura.com/blog/page3/">
 
     <!-- Modernizr -->
     <script src="/assets/js/modernizr.custom.15390.js" type="text/javascript"></script>
@@ -46,21 +46,45 @@ ga('send', 'pageview');
     </div>
     <div class="content">
       <div class="container">
-        <div class="post">
-  
-  <h1 class="postTitle">upgrade Passenger + Nginx on Ubuntu</h1>
-  <p class="meta">December 09, 2015 | <span class="time">0</span> Minute Read</p>
-  
-  <p>This week Passenger announced a security update and i would like to note how easy it is to upgrade Passenger + Nginx:</p>
-
-<p>If Passenger was installed through the Phusion Passenger APT repository, then you can upgrade Passenger along with Nginx through APT using the following command:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
-<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">upgrade</span></code></pre></figure>
-
-<p>That’s all</p>
-
-
+        <div class="home" id="home">
+  <h1 class="pageTitle">Recent Posts</h1>
+  <ul class="posts noList">
+    
+      <li>
+        <span class="date">December 01, 2015</span>
+        <h3><a class="post-link" href="/blog/using-nginx-together-with-discourse/">Using nginx together with Discourse</a></h3>
+        <p class="description">Yesterday i tried to install Discourse in a server running nginx, i got two problems that were solved quickly just by googling:Error when starting the container:Error response from daemon: Cannot start container 270d47cd8401c50f13e0a1e51428f5b9833...</p>
+      </li>
+    
+      <li>
+        <span class="date">December 01, 2015</span>
+        <h3><a class="post-link" href="/blog/startup-we-wanted-flying-cars-instead-we-got-140-characters/">We wanted flying cars, instead we got 140 characters</a></h3>
+        <p class="description">While reading Elon Musk biography by Ashlee, a remarkable quote by Peter Thiel marked in my mind and i decided to share it with whoever is reading this post.We wanted flying cars, instead we got 140 charactersFounders Fund, where Peter Thiel is a ...</p>
+      </li>
+    
+      <li>
+        <span class="date">December 01, 2015</span>
+        <h3><a class="post-link" href="/blog/how-to-stop-disposable-email-services-from-registering/">How to stop disposable email services such as mailinator from registering to your website</a></h3>
+        <p class="description">It is very easy, simply add the gem “valid_email2”InstallationAdd this line to your application’s Gemfile:gem “valid_email2”And then execute:$ bundleUsageUse with ActiveModelclass User &lt; ActiveRecord::Base  devise :database_authenticatable, :re...</p>
+      </li>
+    
+      <li>
+        <span class="date">December 01, 2015</span>
+        <h3><a class="post-link" href="/blog/enable-sso-between-discourse-and-rails-app/">Enable SSO between discourse and your rails app</a></h3>
+        <p class="description">Put the reference implementation - https://github.com/discourse/discourse/blob/master/lib/single_sign_on.rb - in your #{Rails.root}/lib directoryAdd this route to routes.rbget 'discourse/sso' =&gt; 'discourse_sso#sso'Create the following controlle...</p>
+      </li>
+    
+      <li>
+        <span class="date">November 30, 2015</span>
+        <h3><a class="post-link" href="/blog/first-boring-post/">My first boring post</a></h3>
+        <p class="description">It took some time before i decided to start writing my own blog and document mostly technical challenges that i face, and most probably solutions to them.</p>
+      </li>
+    
+  </ul>
+  <!-- Pagination links -->
+  <div class="pagination">
+    <a href="/articles" class="next button__outline">All Posts</a>
+  </div>
 </div>
 
       </div>

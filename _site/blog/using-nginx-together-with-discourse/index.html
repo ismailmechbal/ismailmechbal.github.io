@@ -2,8 +2,9 @@
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,44 +38,45 @@ ga('send', 'pageview');
  
 </head>
 
-<body>
-	<div class="">
-		<h1 class="logo"><a alt="Return to the homepage" href="/">I/M</a></h1>
-	</div>
-  <div class="content">
-    <div class="container">
-      <div class="post">
+  <body>
+    <div class="">
+      <h1 class="logo">
+        <a alt="Return to the homepage" href="/">I/M</a>
+      </h1>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="post">
   
   <h1 class="postTitle">Using nginx together with Discourse</h1>
   <p class="meta">December 01, 2015 | <span class="time">1</span> Minute Read</p>
   
   <p>Yesterday i tried to install Discourse in a server running nginx, i got two problems that were solved quickly just by googling:</p>
 
-<h2>Error when starting the container:</h2>
-
+<h2 id="error-when-starting-the-container">Error when starting the container:</h2>
 <p>Error response from daemon: Cannot start container 270d47cd8401c50f13e0a1e51428f5b9833a9480b53bc98735df55b425a70b6d: Error starting userland proxy: listen tcp 0.0.0.0:80: bind: address already in use</p>
 
 <p>It was expected, because nginx runs on port 80.</p>
 
 <p>in /var/docker/containers/app.yml there is an entry:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">expose</span><span class="p">:</span>
-  <span class="o">-</span> <span class="s2">&quot;80:80&quot;</span>   <span class="c1"># fwd host port 80   to container port 80 (http)</span>
-  <span class="o">-</span> <span class="s2">&quot;2222:22&quot;</span> <span class="c1"># fwd host port 2222 to container port 22 (ssh)</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">expose:
+  </span><span class="o">-</span> <span class="s2">"80:80"</span>   <span class="c1"># fwd host port 80   to container port 80 (http)</span>
+  <span class="o">-</span> <span class="s2">"2222:22"</span> <span class="c1"># fwd host port 2222 to container port 22 (ssh)</span></code></pre></figure>
 
 <p>Change port 80 to 8080</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">expose</span><span class="p">:</span>
-  <span class="o">-</span> <span class="s2">&quot;8080:80&quot;</span>
-  <span class="o">-</span> <span class="s2">&quot;2222:22&quot;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">expose:
+  </span><span class="o">-</span> <span class="s2">"8080:80"</span>
+  <span class="o">-</span> <span class="s2">"2222:22"</span></code></pre></figure>
 
 <p>Then rebuild and restart the container</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">cd</span> <span class="sr">/var/</span><span class="n">discourse</span>
-<span class="n">sudo</span> <span class="o">.</span><span class="n">/launcher</span> <span class="n">rebuild</span> <span class="n">app</span> <span class="c1"># To apply the changes</span>
-<span class="n">sudo</span> <span class="o">.</span><span class="n">/launcher</span> <span class="n">start</span> <span class="n">app</span></code></pre></figure>
+<span class="n">sudo</span> <span class="p">.</span><span class="nf">/</span><span class="n">launcher</span> <span class="n">rebuild</span> <span class="n">app</span> <span class="c1"># To apply the changes</span>
+<span class="n">sudo</span> <span class="p">.</span><span class="nf">/</span><span class="n">launcher</span> <span class="n">start</span> <span class="n">app</span></code></pre></figure>
 
-<h2>Setting up http forwarding to direct to this new alternate port (8080)</h2>
+<h2 id="setting-up-http-forwarding-to-direct-to-this-new-alternate-port-8080">Setting up http forwarding to direct to this new alternate port (8080)</h2>
 
 <p>Create a new virtual host file for Discourse and put in it:</p>
 
@@ -85,13 +87,13 @@ ga('send', 'pageview');
 <span class="c1"># configure the virtual host</span>
 <span class="n">server</span> <span class="p">{</span>
   <span class="c1"># replace with your domain name</span>
-  <span class="n">server_name</span> <span class="n">forum</span><span class="o">.</span><span class="n">myappconverter</span><span class="o">.</span><span class="n">com</span><span class="p">;</span>
+  <span class="n">server_name</span> <span class="n">forum</span><span class="p">.</span><span class="nf">myappconverter</span><span class="p">.</span><span class="nf">com</span><span class="p">;</span>
   <span class="n">location</span> <span class="o">/</span> <span class="p">{</span>
-    <span class="n">proxy_set_header</span> <span class="n">X</span><span class="o">-</span><span class="no">Forwarded</span><span class="o">-</span><span class="no">For</span> <span class="vg">$proxy_add_x_forwarded_for</span><span class="p">;</span>
+    <span class="n">proxy_set_header</span> <span class="no">X</span><span class="o">-</span><span class="no">Forwarded</span><span class="o">-</span><span class="no">For</span> <span class="vg">$proxy_add_x_forwarded_for</span><span class="p">;</span>
     <span class="n">proxy_set_header</span> <span class="no">Host</span> <span class="vg">$http_host</span><span class="p">;</span>
     <span class="n">proxy_redirect</span> <span class="n">off</span><span class="p">;</span>
     <span class="c1">#pass to the upstream discourse server mentioned above</span>
-    <span class="n">proxy_pass</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">discourse</span><span class="p">;</span>
+    <span class="n">proxy_pass</span> <span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">discourse</span><span class="p">;</span>
   <span class="p">}</span>
 <span class="p">}</span></code></pre></figure>
 
@@ -102,9 +104,9 @@ http://mdworld.nl/blog/mypc/2014/11/16/discourse-ubuntu/</p>
 
 </div>
 
+      </div>
     </div>
-  </div>
-  <div class="footer">
+    <div class="footer">
    <div class="container">
       <p class="copy">&copy; 2016 <a href="http://sboura.com">Ismail Mechbal</a> <a href="https://github.com/ismailmechbal/ismailmechbal.github.io">Source code</a></p>
 
@@ -137,12 +139,12 @@ http://mdworld.nl/blog/mypc/2014/11/16/discourse-ubuntu/</p>
 </div><!-- end .footer -->
 
 
-  <!-- Add jQuery and other scripts -->
+    <!-- Add jQuery and other scripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src=""><\/script>')</script>
 <script src="/assets/js/dropcap.min.js"></script>
 <script src="/assets/js/responsive-nav.min.js"></script>
 <script src="/assets/js/scripts.js"></script>
 
-</body>
+  </body>
 </html>

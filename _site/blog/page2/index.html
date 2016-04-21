@@ -2,8 +2,9 @@
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,38 +38,46 @@ ga('send', 'pageview');
  
 </head>
 
-<body>
-	<div class="">
-		<h1 class="logo"><a alt="Return to the homepage" href="/">I/M</a></h1>
-	</div>
-  <div class="content">
-    <div class="container">
-      <div class="home" id="home">
+  <body>
+    <div class="">
+      <h1 class="logo">
+        <a alt="Return to the homepage" href="/">I/M</a>
+      </h1>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="home" id="home">
   <h1 class="pageTitle">Recent Posts</h1>
   <ul class="posts noList">
     
       <li>
-        <span class="date">December 01, 2015</span>
-        <h3><a class="post-link" href="/blog/startup-we-wanted-flying-cars-instead-we-got-140-characters/">We wanted flying cars, instead we got 140 characters</a></h3>
-        <p class="description">While reading Elon Musk biography by Ashlee, a remarkable quote by Peter Thiel marked in my mind and i decided to share it with whoever is reading this post.We wanted flying cars, instead we got 140 charactersFounders Fund, where Peter Thiel is a ...</p>
+        <span class="date">April 17, 2016</span>
+        <h3><a class="post-link" href="/blog/ux-cancel-buttons/">UX Cancel buttons</a></h3>
+        <p class="description">I was working on a form, and i was wondering whether i should have a cancel button or not, the cancel button would only take the user back to the previous page.The following article by Jacob Nielsen answer the question, here is an excerpt:The Web ...</p>
       </li>
     
       <li>
-        <span class="date">December 01, 2015</span>
-        <h3><a class="post-link" href="/blog/how-to-stop-disposable-email-services-from-registering/">How to stop disposable email services such as mailinator from registering to your website</a></h3>
-        <p class="description">It is very easy, simply add the gem &quot;valid_email2&quot;InstallationAdd this line to your application&#39;s Gemfile:gem &quot;valid_email2&quot;And then execute:$ bundleUsageUse with ActiveModelclass User &lt; ActiveRecord::Base  devise :datab...</p>
+        <span class="date">April 13, 2016</span>
+        <h3><a class="post-link" href="/blog/some-quotes-to-get-back-again/">Some quotes to get back again to blogging</a></h3>
+        <p class="description">I took a break from blogging to work on the self, myself and I.Tim Ferris podcast &amp; the unmistakable creative have been a great source of inspiration, highly recommend to everyone.The following quotes, caught my attention.Hope is not a strateg...</p>
       </li>
     
       <li>
-        <span class="date">December 01, 2015</span>
-        <h3><a class="post-link" href="/blog/enable-sso-between-discourse-and-rails-app/">Enable SSO between discourse and your rails app</a></h3>
-        <p class="description">Put the reference implementation - https://github.com/discourse/discourse/blob/master/lib/singlesignon.rb - in your #{Rails.root}/lib directoryAdd this route to routes.rbget &#39;discourse/sso&#39; =&gt; &#39;discourse_sso#sso&#39;Create the follo...</p>
+        <span class="date">December 14, 2015</span>
+        <h3><a class="post-link" href="/blog/hello-ruby-adventures-in-coding/">Hello Ruby: Adventures in Coding</a></h3>
+        <p class="description">I recently came across an interesting book called “Hello Ruby: Adventures in Coding” by Linda Liukas (founder of Rails Girls), i just ordered the Swedish version for my daughter who will be extremely happy reading it together with me!The book intr...</p>
       </li>
     
       <li>
-        <span class="date">November 30, 2015</span>
-        <h3><a class="post-link" href="/blog/first-boring-post/">My first boring post</a></h3>
-        <p class="description">It took some time before i decided to start writing my own blog and document mostly technical challenges that i face, and most probably solutions to them.</p>
+        <span class="date">December 09, 2015</span>
+        <h3><a class="post-link" href="/blog/upgrade-passenger-nginx-ubuntu/">upgrade Passenger + Nginx on Ubuntu</a></h3>
+        <p class="description">This week Passenger announced a security update and i would like to note how easy it is to upgrade Passenger + Nginx:If Passenger was installed through the Phusion Passenger APT repository, then you can upgrade Passenger along with Nginx through A...</p>
+      </li>
+    
+      <li>
+        <span class="date">December 07, 2015</span>
+        <h3><a class="post-link" href="/blog/add-email-confirmation-to-rails-application/">Add email confirmation to an already running rails application:</a></h3>
+        <p class="description">To add email confirmation to an already running rails application:Add devise :confirmable to your models/user.rbdevise :registerable, :confirmableAdd a new migrationrails g migration add_confirmable_to_deviseMake sure the contents of the migration...</p>
       </li>
     
   </ul>
@@ -78,9 +87,9 @@ ga('send', 'pageview');
   </div>
 </div>
 
+      </div>
     </div>
-  </div>
-  <div class="footer">
+    <div class="footer">
    <div class="container">
       <p class="copy">&copy; 2016 <a href="http://sboura.com">Ismail Mechbal</a> <a href="https://github.com/ismailmechbal/ismailmechbal.github.io">Source code</a></p>
 
@@ -113,12 +122,12 @@ ga('send', 'pageview');
 </div><!-- end .footer -->
 
 
-  <!-- Add jQuery and other scripts -->
+    <!-- Add jQuery and other scripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src=""><\/script>')</script>
 <script src="/assets/js/dropcap.min.js"></script>
 <script src="/assets/js/responsive-nav.min.js"></script>
 <script src="/assets/js/scripts.js"></script>
 
-</body>
+  </body>
 </html>
