@@ -4,54 +4,60 @@ author_profile: true
 title:  "Books i read in 2015"
 date:   2016-04-21
 ---
-2015 was awesome, i invested on thy self & i came back to reading books.
+2015 was awesome, i invested on thy self & i came back to reading books, below are the books i read:
 
 [Goodreads](https://www.goodreads.com/review/list/46965709-ismail) is a great way to keep track of the books you've read, my motivation for blogging about books i read is Derek Sivers, [Books finished recently](https://sivers.org/book).
 
-The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
-Ries, Eric *
+## Life
 
-The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers
-by Ben Horowitz *
- 4.16 avg rating — 12,692 ratings — published 2014
-A lot of people talk about how great it is to start a business, but only Ben Horowitz is brutally honest about how hard it is to run one. In The Hard Thing About Hard Things, Ben Horowitz, cofounder o ...more
+#### Essentialism: The Disciplined Pursuit of Less - <em>Greg McKeown</em>
 
+#### The Antidote: Happiness for People Who Can't Stand Positive Thinking - <em>Oliver Burkeman</em>
 
-Essentialism: The Disciplined Pursuit of Less
-Essentialism: The Disciplined Pursuit of Less
-McKeown, Greg
+#### Crucial Conversations: Tools for Talking When Stakes Are High - <em>Kerry Patterson</em>
 
-The Antidote: Happiness for People Who Can't Stand Positive Thinking
-Burkeman, Oliver
+#### Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future - <em>Ashlee Vance</em>
 
+#### Steve Jobs - <em>Walter Isaacson</em>
 
-Inspired: How To Create Products Customers Love
-Cagan, Marty
+## Startup
 
-Getting Real: The Smarter, Faster, Easier Way to Build a Web Application
-Signals, 37
+#### The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses - <em>Eric ries</em>
 
-Lean UX: Applying Lean Principles to Improve User Experience
-Gothelf, Jeff
+#### The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers - <em>Ben Horowitz</em>
 
-Running Lean: Iterate from Plan A to a Plan That Works
-Maurya, Ash *
+#### Inspired: How To Create Products Customers Love - <em>Marty Cagan</em>
 
+#### Getting Real: The Smarter, Faster, Easier Way to Build a Web Application - <em>Jason Fried & David Heinemeier Hansson</em>
 
-Purple Cow: Transform Your Business by Being Remarkable
-by Seth Godin
+#### Lean UX: Applying Lean Principles to Improve User Experience - <em>Jeff Gothelf</em>
 
+#### Running Lean: Iterate from Plan A to a Plan That Works - <em>Ash Maurya</em>
 
-Crucial Conversations: Tools for Talking When Stakes Are High
-Patterson, Kerry
+#### How Google Works - <em>Eric Schmidt</em>
 
+#### The $100 Startup: Reinvent the Way You Make a Living, Do What You Love, and Create a New Future - <em>Chris Guillebeau</em>
 
+#### The Startup Owner's Manual: The Step-By-Step Guide for Building a Great Company - <em>Steven Blank</em>
 
+#### The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup - <em>Noam Wasserman</em>
 
--------------------------------------------------------
+## Product
 
-Lean Analytics: Use Data to Build a Better Startup Faster
-Croll, Alistair
+#### Lean from the Trenches Managing Large-Scale Projects with Kanban - <em>Henrik Kniberg</em>
 
-Speak Like Churchill, Stand Like Lincoln: 21 Powerful Secrets of History's Greatest Speakers
-Humes, James C.
+#### Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising - <em>Ryan Holiday</em>
+
+#### Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising - <em>Ryan Holiday</em>
+
+#### The Phoenix Project <em>Gene Kim, George Spafford, and Kevin Behr</em>
+
+<hr>
+
+# Currently reading in 2016
+
+#### Lean Analytics: Use Data to Build a Better Startup Faster - <em>Alistair, Croll</em>
+
+#### Speak Like Churchill, Stand Like Lincoln: 21 Powerful Secrets of History's Greatest Speakers - <em>James C Humes</em>
+
+#### Purple Cow: Transform Your Business by Being Remarkable - <em>Seth Godin</em>

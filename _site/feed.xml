@@ -5,64 +5,25 @@
     <description>Ismail Mechbal journey in wonderland.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 May 2016 15:30:21 +0100</pubDate>
-    <lastBuildDate>Thu, 05 May 2016 15:30:21 +0100</lastBuildDate>
+    <pubDate>Thu, 05 May 2016 16:23:37 +0100</pubDate>
+    <lastBuildDate>Thu, 05 May 2016 16:23:37 +0100</lastBuildDate>
     <generator>Jekyll v3.0.5</generator>
     
       
       <item>
         <title>Scaling Agile at Spotify</title>
-        <description>&lt;p&gt;2015 was a very special year for me, it is the year when i started to invest on myself, reading book takes a big part in my life.
-I use &lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quot;&gt;Goodreads&lt;/a&gt; to keep track of the book i read, my motivation for blogging about books i read is Derek Sivers, &lt;a href=&quot;https://sivers.org/book&quot;&gt;Books finished recently&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;The way Spotify scales its Agile methodology is using a Matrix that includes “Tribes, Squads, Chapters &amp;amp; Guilds”.&lt;/p&gt;
 
-&lt;p&gt;The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
-Ries, Eric *&lt;/p&gt;
+&lt;p&gt;This document highlight how Spotify (a disruptive Unicorn Swedish startup) deals with it multiple teams and thousands of members.&lt;/p&gt;
 
-&lt;p&gt;The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers
-by Ben Horowitz *
- 4.16 avg rating — 12,692 ratings — published 2014
-A lot of people talk about how great it is to start a business, but only Ben Horowitz is brutally honest about how hard it is to run one. In The Hard Thing About Hard Things, Ben Horowitz, cofounder o …more&lt;/p&gt;
-
-&lt;p&gt;Essentialism: The Disciplined Pursuit of Less
-Essentialism: The Disciplined Pursuit of Less
-McKeown, Greg&lt;/p&gt;
-
-&lt;p&gt;The Antidote: Happiness for People Who Can’t Stand Positive Thinking
-Burkeman, Oliver&lt;/p&gt;
-
-&lt;p&gt;Inspired: How To Create Products Customers Love
-Cagan, Marty&lt;/p&gt;
-
-&lt;p&gt;Getting Real: The Smarter, Faster, Easier Way to Build a Web Application
-Signals, 37&lt;/p&gt;
-
-&lt;p&gt;Lean UX: Applying Lean Principles to Improve User Experience
-Gothelf, Jeff&lt;/p&gt;
-
-&lt;p&gt;Running Lean: Iterate from Plan A to a Plan That Works
-Maurya, Ash *&lt;/p&gt;
-
-&lt;p&gt;Purple Cow: Transform Your Business by Being Remarkable
-by Seth Godin&lt;/p&gt;
-
-&lt;p&gt;Crucial Conversations: Tools for Talking When Stakes Are High
-Patterson, Kerry&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Lean Analytics: Use Data to Build a Better Startup Faster
-Croll, Alistair&lt;/p&gt;
-
-&lt;p&gt;Speak Like Churchill, Stand Like Lincoln: 21 Powerful Secrets of History’s Greatest Speakers
-Humes, James C.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/1018963/Articles/SpotifyScaling.pdf&quot;&gt;Link to download the PDF&lt;/a&gt;&lt;/p&gt;
 </description>
         
-          <description>&lt;p&gt;2015 was a very special year for me, it is the year when i started to invest on myself, reading book takes a big part in my life.
-I use &lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quot;&gt;Goodreads&lt;/a&gt; to keep track of the book i read, my motivation for blogging about books i read is Derek Sivers, &lt;a href=&quot;https://sivers.org/book&quot;&gt;Books finished recently&lt;/a&gt;.&lt;/p&gt;
+          <description>&lt;p&gt;The way Spotify scales its Agile methodology is using a Matrix that includes “Tribes, Squads, Chapters &amp;amp; Guilds”.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Wed, 04 May 2016 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 05 May 2016 00:00:00 +0100</pubDate>
         <link>/scaling-agile-spotify/</link>
         <guid isPermaLink="true">/scaling-agile-spotify/</guid>
         
@@ -73,53 +34,66 @@ I use &lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quo
       
       <item>
         <title>Books i read in 2015</title>
-        <description>&lt;p&gt;2015 was awesome, i invested on thy self &amp;amp; i came back to reading books.&lt;/p&gt;
+        <description>&lt;p&gt;2015 was awesome, i invested on thy self &amp;amp; i came back to reading books, below are the books i read:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quot;&gt;Goodreads&lt;/a&gt; is a great way to keep track of the books you’ve read, my motivation for blogging about books i read is Derek Sivers, &lt;a href=&quot;https://sivers.org/book&quot;&gt;Books finished recently&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
-Ries, Eric *&lt;/p&gt;
+&lt;h2 id=&quot;life&quot;&gt;Life&lt;/h2&gt;
 
-&lt;p&gt;The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers
-by Ben Horowitz *
- 4.16 avg rating — 12,692 ratings — published 2014
-A lot of people talk about how great it is to start a business, but only Ben Horowitz is brutally honest about how hard it is to run one. In The Hard Thing About Hard Things, Ben Horowitz, cofounder o …more&lt;/p&gt;
+&lt;h4 id=&quot;essentialism-the-disciplined-pursuit-of-less---emgreg-mckeownem&quot;&gt;Essentialism: The Disciplined Pursuit of Less - &lt;em&gt;Greg McKeown&lt;/em&gt;&lt;/h4&gt;
 
-&lt;p&gt;Essentialism: The Disciplined Pursuit of Less
-Essentialism: The Disciplined Pursuit of Less
-McKeown, Greg&lt;/p&gt;
+&lt;h4 id=&quot;the-antidote-happiness-for-people-who-cant-stand-positive-thinking---emoliver-burkemanem&quot;&gt;The Antidote: Happiness for People Who Can’t Stand Positive Thinking - &lt;em&gt;Oliver Burkeman&lt;/em&gt;&lt;/h4&gt;
 
-&lt;p&gt;The Antidote: Happiness for People Who Can’t Stand Positive Thinking
-Burkeman, Oliver&lt;/p&gt;
+&lt;h4 id=&quot;crucial-conversations-tools-for-talking-when-stakes-are-high---emkerry-pattersonem&quot;&gt;Crucial Conversations: Tools for Talking When Stakes Are High - &lt;em&gt;Kerry Patterson&lt;/em&gt;&lt;/h4&gt;
 
-&lt;p&gt;Inspired: How To Create Products Customers Love
-Cagan, Marty&lt;/p&gt;
+&lt;h4 id=&quot;elon-musk-tesla-spacex-and-the-quest-for-a-fantastic-future---emashlee-vanceem&quot;&gt;Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future - &lt;em&gt;Ashlee Vance&lt;/em&gt;&lt;/h4&gt;
 
-&lt;p&gt;Getting Real: The Smarter, Faster, Easier Way to Build a Web Application
-Signals, 37&lt;/p&gt;
+&lt;h4 id=&quot;steve-jobs---emwalter-isaacsonem&quot;&gt;Steve Jobs - &lt;em&gt;Walter Isaacson&lt;/em&gt;&lt;/h4&gt;
 
-&lt;p&gt;Lean UX: Applying Lean Principles to Improve User Experience
-Gothelf, Jeff&lt;/p&gt;
+&lt;h2 id=&quot;startup&quot;&gt;Startup&lt;/h2&gt;
 
-&lt;p&gt;Running Lean: Iterate from Plan A to a Plan That Works
-Maurya, Ash *&lt;/p&gt;
+&lt;h4 id=&quot;the-lean-startup-how-todays-entrepreneurs-use-continuous-innovation-to-create-radically-successful-businesses---emeric-riesem&quot;&gt;The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses - &lt;em&gt;Eric ries&lt;/em&gt;&lt;/h4&gt;
 
-&lt;p&gt;Purple Cow: Transform Your Business by Being Remarkable
-by Seth Godin&lt;/p&gt;
+&lt;h4 id=&quot;the-hard-thing-about-hard-things-building-a-business-when-there-are-no-easy-answers---emben-horowitzem&quot;&gt;The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers - &lt;em&gt;Ben Horowitz&lt;/em&gt;&lt;/h4&gt;
 
-&lt;p&gt;Crucial Conversations: Tools for Talking When Stakes Are High
-Patterson, Kerry&lt;/p&gt;
+&lt;h4 id=&quot;inspired-how-to-create-products-customers-love---emmarty-caganem&quot;&gt;Inspired: How To Create Products Customers Love - &lt;em&gt;Marty Cagan&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;getting-real-the-smarter-faster-easier-way-to-build-a-web-application---emjason-fried--david-heinemeier-hanssonem&quot;&gt;Getting Real: The Smarter, Faster, Easier Way to Build a Web Application - &lt;em&gt;Jason Fried &amp;amp; David Heinemeier Hansson&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;lean-ux-applying-lean-principles-to-improve-user-experience---emjeff-gothelfem&quot;&gt;Lean UX: Applying Lean Principles to Improve User Experience - &lt;em&gt;Jeff Gothelf&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;running-lean-iterate-from-plan-a-to-a-plan-that-works---emash-mauryaem&quot;&gt;Running Lean: Iterate from Plan A to a Plan That Works - &lt;em&gt;Ash Maurya&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;how-google-works---emeric-schmidtem&quot;&gt;How Google Works - &lt;em&gt;Eric Schmidt&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-100-startup-reinvent-the-way-you-make-a-living-do-what-you-love-and-create-a-new-future---emchris-guillebeauem&quot;&gt;The $100 Startup: Reinvent the Way You Make a Living, Do What You Love, and Create a New Future - &lt;em&gt;Chris Guillebeau&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-startup-owners-manual-the-step-by-step-guide-for-building-a-great-company---emsteven-blankem&quot;&gt;The Startup Owner’s Manual: The Step-By-Step Guide for Building a Great Company - &lt;em&gt;Steven Blank&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-founders-dilemmas-anticipating-and-avoiding-the-pitfalls-that-can-sink-a-startup---emnoam-wassermanem&quot;&gt;The Founder’s Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup - &lt;em&gt;Noam Wasserman&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;product&quot;&gt;Product&lt;/h2&gt;
+
+&lt;h4 id=&quot;lean-from-the-trenches-managing-large-scale-projects-with-kanban---emhenrik-knibergem&quot;&gt;Lean from the Trenches Managing Large-Scale Projects with Kanban - &lt;em&gt;Henrik Kniberg&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;growth-hacker-marketing-a-primer-on-the-future-of-pr-marketing-and-advertising---emryan-holidayem&quot;&gt;Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising - &lt;em&gt;Ryan Holiday&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;growth-hacker-marketing-a-primer-on-the-future-of-pr-marketing-and-advertising---emryan-holidayem-1&quot;&gt;Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising - &lt;em&gt;Ryan Holiday&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-phoenix-project-emgene-kim-george-spafford-and-kevin-behrem&quot;&gt;The Phoenix Project &lt;em&gt;Gene Kim, George Spafford, and Kevin Behr&lt;/em&gt;&lt;/h4&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Lean Analytics: Use Data to Build a Better Startup Faster
-Croll, Alistair&lt;/p&gt;
+&lt;h1 id=&quot;currently-reading-in-2016&quot;&gt;Currently reading in 2016&lt;/h1&gt;
 
-&lt;p&gt;Speak Like Churchill, Stand Like Lincoln: 21 Powerful Secrets of History’s Greatest Speakers
-Humes, James C.&lt;/p&gt;
+&lt;h4 id=&quot;lean-analytics-use-data-to-build-a-better-startup-faster---emalistair-crollem&quot;&gt;Lean Analytics: Use Data to Build a Better Startup Faster - &lt;em&gt;Alistair, Croll&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;speak-like-churchill-stand-like-lincoln-21-powerful-secrets-of-historys-greatest-speakers---emjames-c-humesem&quot;&gt;Speak Like Churchill, Stand Like Lincoln: 21 Powerful Secrets of History’s Greatest Speakers - &lt;em&gt;James C Humes&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;purple-cow-transform-your-business-by-being-remarkable---emseth-godinem&quot;&gt;Purple Cow: Transform Your Business by Being Remarkable - &lt;em&gt;Seth Godin&lt;/em&gt;&lt;/h4&gt;
 </description>
         
-          <description>&lt;p&gt;2015 was awesome, i invested on thy self &amp;amp; i came back to reading books.&lt;/p&gt;
+          <description>&lt;p&gt;2015 was awesome, i invested on thy self &amp;amp; i came back to reading books, below are the books i read:&lt;/p&gt;
 
 </description>
         
