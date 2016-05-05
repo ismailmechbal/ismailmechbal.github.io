@@ -4,4 +4,9 @@ author_profile: true
 title:  "Ice cream painting"
 date:   2016-04-21
 ---
-2015 was awesome, i invested on thy self & i came back to reading books.
+Ice cream painting challenge happened when Adam didn't want to finish his ice cream and instead paint my face.
+
+<img class="moments__pictures" src="/images/moments/icecream/ismail-mechbal-ice-cream-on-face-fun-1.jpg">
+<img class="moments__pictures" src="/images/moments/icecream/ismail-mechbal-ice-cream-on-face-fun-4.jpg">
+<img class="moments__pictures" src="/images/moments/icecream/ismail-mechbal-ice-cream-on-face-fun-2.jpg">
+<img class="moments__pictures" src="/images/moments/icecream/ismail-mechbal-ice-cream-on-face-fun-3.jpg">
