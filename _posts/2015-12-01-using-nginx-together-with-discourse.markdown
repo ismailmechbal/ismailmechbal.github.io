@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "Using nginx together with Discourse"
 date:   2015-12-01
 ---

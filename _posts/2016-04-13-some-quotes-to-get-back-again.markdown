@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "Some quotes to get back again to blogging"
 date:   2016-04-13
 ---

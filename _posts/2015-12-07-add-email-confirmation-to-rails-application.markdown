@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "Add email confirmation to an already running rails application:"
 date:   2015-12-07
 ---

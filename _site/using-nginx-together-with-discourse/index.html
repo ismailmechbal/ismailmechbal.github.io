@@ -1,0 +1,286 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+<meta charset="utf-8">
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Using nginx together with Discourse - Ismail Mechbal</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Ismail Mechbal">
+<meta property="og:title" content="Using nginx together with Discourse">
+
+
+
+
+  <meta property="og:description" content="Yesterday i tried to install Discourse in a server running nginx, i got two problems that were solved quickly just by googling:">
+
+
+
+  <meta name="twitter:site" content="@ismailmechbal">
+  <meta name="twitter:title" content="Using nginx together with Discourse">
+  <meta name="twitter:description" content="Yesterday i tried to install Discourse in a server running nginx, i got two problems that were solved quickly just by googling:">
+  <meta name="twitter:url" content="">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2015-12-01T00:00:00+00:00">
+  
+    <link rel="next" href="/add-email-confirmation-to-rails-application/" title="Add email confirmation to an already running rails application:">
+  
+  
+    <link rel="prev" href="/startup-we-wanted-flying-cars-instead-we-got-140-characters/" title="We wanted flying cars, instead we got 140 characters">
+  
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "person",
+      "name" : "Ismail Mechbal",
+      "url" : null,
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ismail Mechbal Feed">
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Ismail Mechbal</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/">About</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/posts">Writing</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/now">Now</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/resume">Resume</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="/images/ismail-mechbal-ice-cream-on-face-fun.jpg" class="author__avatar" alt="Ismail Mechbal">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Ismail Mechbal</h3>
+    <p class="author__bio">Passionate web developer, love to tackle difficult challenges and ride awesome waves.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Stockholm</li>
+      
+      
+      
+        <li><a href="mailto:ismail@unik.ma"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+      
+      
+      
+        <li><a href="https://twitter.com/https://twitter.com/ismailmechbal"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <div class="archive">
+    
+      <h1 class="page__title">Using nginx together with Discourse</h1>
+    
+    <p>Yesterday i tried to install Discourse in a server running nginx, i got two problems that were solved quickly just by googling:</p>
+
+<h2 id="error-when-starting-the-container">Error when starting the container:</h2>
+<p>Error response from daemon: Cannot start container 270d47cd8401c50f13e0a1e51428f5b9833a9480b53bc98735df55b425a70b6d: Error starting userland proxy: listen tcp 0.0.0.0:80: bind: address already in use</p>
+
+<p>It was expected, because nginx runs on port 80.</p>
+
+<p>in /var/docker/containers/app.yml there is an entry:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">expose:
+  </span><span class="o">-</span> <span class="s2">"80:80"</span>   <span class="c1"># fwd host port 80   to container port 80 (http)</span>
+  <span class="o">-</span> <span class="s2">"2222:22"</span> <span class="c1"># fwd host port 2222 to container port 22 (ssh)</span></code></pre></figure>
+
+<p>Change port 80 to 8080</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">expose:
+  </span><span class="o">-</span> <span class="s2">"8080:80"</span>
+  <span class="o">-</span> <span class="s2">"2222:22"</span></code></pre></figure>
+
+<p>Then rebuild and restart the container</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">cd</span> <span class="sr">/var/</span><span class="n">discourse</span>
+<span class="n">sudo</span> <span class="p">.</span><span class="nf">/</span><span class="n">launcher</span> <span class="n">rebuild</span> <span class="n">app</span> <span class="c1"># To apply the changes</span>
+<span class="n">sudo</span> <span class="p">.</span><span class="nf">/</span><span class="n">launcher</span> <span class="n">start</span> <span class="n">app</span></code></pre></figure>
+
+<h2 id="setting-up-http-forwarding-to-direct-to-this-new-alternate-port-8080">Setting up http forwarding to direct to this new alternate port (8080)</h2>
+
+<p>Create a new virtual host file for Discourse and put in it:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">upstream</span> <span class="n">discourse</span> <span class="p">{</span>
+<span class="c1">#fail_timeout is optional; I throw it in to see errors quickly</span>
+  <span class="n">server</span> <span class="mi">127</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">1</span><span class="p">:</span><span class="mi">8080</span> <span class="n">fail_timeout</span><span class="o">=</span><span class="mi">5</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="c1"># configure the virtual host</span>
+<span class="n">server</span> <span class="p">{</span>
+  <span class="c1"># replace with your domain name</span>
+  <span class="n">server_name</span> <span class="n">forum</span><span class="p">.</span><span class="nf">myappconverter</span><span class="p">.</span><span class="nf">com</span><span class="p">;</span>
+  <span class="n">location</span> <span class="o">/</span> <span class="p">{</span>
+    <span class="n">proxy_set_header</span> <span class="no">X</span><span class="o">-</span><span class="no">Forwarded</span><span class="o">-</span><span class="no">For</span> <span class="vg">$proxy_add_x_forwarded_for</span><span class="p">;</span>
+    <span class="n">proxy_set_header</span> <span class="no">Host</span> <span class="vg">$http_host</span><span class="p">;</span>
+    <span class="n">proxy_redirect</span> <span class="n">off</span><span class="p">;</span>
+    <span class="c1">#pass to the upstream discourse server mentioned above</span>
+    <span class="n">proxy_pass</span> <span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">discourse</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Sources:
+https://meta.discourse.org/t/using-nginx-alongside-the-docker-install/15282/4
+http://mdworld.nl/blog/mypc/2014/11/16/discourse-ubuntu/</p>
+
+  </div>
+</div>
+
+    <div class="page__footer">
+      <footer>
+        
+
+<div class="page__footer-copyright">&copy; 2016 Ismail Mechbal. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+    <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+  </body>
+</html>
+

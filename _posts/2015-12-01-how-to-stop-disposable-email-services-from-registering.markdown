@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "How to stop disposable email services such as mailinator from registering to your website"
 date:   2015-12-01
 ---

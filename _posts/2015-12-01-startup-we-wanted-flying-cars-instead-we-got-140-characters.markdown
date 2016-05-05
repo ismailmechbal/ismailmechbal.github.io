@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "We wanted flying cars, instead we got 140 characters"
 date:   2015-12-01
 ---

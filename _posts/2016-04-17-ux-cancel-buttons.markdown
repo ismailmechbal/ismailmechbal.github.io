@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "UX Cancel buttons"
 date:   2016-04-17
 ---

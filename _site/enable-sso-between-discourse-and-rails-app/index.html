@@ -1,0 +1,271 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+<meta charset="utf-8">
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Enable SSO between discourse and your rails app - Ismail Mechbal</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Ismail Mechbal">
+<meta property="og:title" content="Enable SSO between discourse and your rails app">
+
+
+
+
+  <meta property="og:description" content="Put the reference implementation - https://github.com/discourse/discourse/blob/master/lib/single_sign_on.rb - in your #{Rails.root}/lib directory">
+
+
+
+  <meta name="twitter:site" content="@ismailmechbal">
+  <meta name="twitter:title" content="Enable SSO between discourse and your rails app">
+  <meta name="twitter:description" content="Put the reference implementation - https://github.com/discourse/discourse/blob/master/lib/single_sign_on.rb - in your #{Rails.root}/lib directory">
+  <meta name="twitter:url" content="">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2015-12-01T00:00:00+00:00">
+  
+    <link rel="next" href="/how-to-stop-disposable-email-services-from-registering/" title="How to stop disposable email services such as mailinator from registering to your website">
+  
+  
+    <link rel="prev" href="/first-boring-post/" title="My first boring post">
+  
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "person",
+      "name" : "Ismail Mechbal",
+      "url" : null,
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ismail Mechbal Feed">
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Ismail Mechbal</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/">About</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/posts">Writing</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/now">Now</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/resume">Resume</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="/images/ismail-mechbal-ice-cream-on-face-fun.jpg" class="author__avatar" alt="Ismail Mechbal">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Ismail Mechbal</h3>
+    <p class="author__bio">Passionate web developer, love to tackle difficult challenges and ride awesome waves.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Stockholm</li>
+      
+      
+      
+        <li><a href="mailto:ismail@unik.ma"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+      
+      
+      
+        <li><a href="https://twitter.com/https://twitter.com/ismailmechbal"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <div class="archive">
+    
+      <h1 class="page__title">Enable SSO between discourse and your rails app</h1>
+    
+    <h4 id="put-the-reference-implementation---httpsgithubcomdiscoursediscourseblobmasterlibsinglesignonrb---in-your-railsrootlib-directory">Put the reference implementation - https://github.com/discourse/discourse/blob/master/lib/single_sign_on.rb - in your #{Rails.root}/lib directory</h4>
+
+<h4 id="add-this-route-to-routesrb">Add this route to routes.rb</h4>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">get</span> <span class="s1">'discourse/sso'</span> <span class="o">=&gt;</span> <span class="s1">'discourse_sso#sso'</span></code></pre></figure>
+
+<h4 id="create-the-following-controller-discoursessocontrollerrb-and-add-the-following-into-it">Create the following controller discourse_sso_controller.rb and add the following into it:</h4>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">'single_sign_on'</span>
+
+<span class="k">class</span> <span class="nc">DiscourseSsoController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+  <span class="n">before_action</span> <span class="ss">:authenticate_user!</span> <span class="c1"># ensures user must login</span>
+
+  <span class="k">def</span> <span class="nf">sso</span>
+    <span class="n">secret</span> <span class="o">=</span> <span class="s2">"MY_SECRET_STRING"</span>
+    <span class="n">sso</span> <span class="o">=</span> <span class="no">SingleSignOn</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">request</span><span class="p">.</span><span class="nf">query_string</span><span class="p">,</span> <span class="n">secret</span><span class="p">)</span>
+    <span class="n">sso</span><span class="p">.</span><span class="nf">email</span> <span class="o">=</span> <span class="n">current_user</span><span class="p">.</span><span class="nf">email</span> <span class="c1"># from devise</span>
+    <span class="n">sso</span><span class="p">.</span><span class="nf">name</span> <span class="o">=</span> <span class="n">current_user</span><span class="p">.</span><span class="nf">full_name</span> <span class="c1"># this is a custom method on the User class</span>
+    <span class="n">sso</span><span class="p">.</span><span class="nf">username</span> <span class="o">=</span> <span class="n">current_user</span><span class="p">.</span><span class="nf">email</span> <span class="c1"># from devise</span>
+    <span class="n">sso</span><span class="p">.</span><span class="nf">external_id</span> <span class="o">=</span> <span class="n">current_user</span><span class="p">.</span><span class="nf">id</span> <span class="c1"># from devise</span>
+    <span class="n">sso</span><span class="p">.</span><span class="nf">sso_secret</span> <span class="o">=</span> <span class="n">secret</span>
+
+    <span class="n">redirect_to</span> <span class="n">sso</span><span class="p">.</span><span class="nf">to_url</span><span class="p">(</span><span class="s2">"http://your_discource_server/session/sso_login"</span><span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></figure>
+
+<h4 id="set-up-the-sso-config-in-discourse-adminsitesettingscategorylogin-to-have-the-following">Set up the SSO config in discourse (admin/site_settings/category/login) to have the following</h4>
+
+<p>sso url: http://your_rails_server/discourse/sso
+sso secret : what you set as MY_SECRET_STRING above</p>
+
+<h4 id="disable-other-login-types-in-discourse">Disable other login types in discourse</h4>
+
+<h4 id="youre-done">You’re done</h4>
+
+  </div>
+</div>
+
+    <div class="page__footer">
+      <footer>
+        
+
+<div class="page__footer-copyright">&copy; 2016 Ismail Mechbal. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+    <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+  </body>
+</html>
+

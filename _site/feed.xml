@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ismail Mechbal</title>
-    <description>Ismail Mechbal personal blog</description>
-    <link>http://sboura.com/</link>
-    <atom:link href="http://sboura.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Apr 2016 15:18:38 +0100</pubDate>
-    <lastBuildDate>Fri, 22 Apr 2016 15:18:38 +0100</lastBuildDate>
-    <generator>Jekyll v3.1.3</generator>
-    
-      
-      <item>
-        <title>Books i read in 2015</title>
-        <description>&lt;p&gt;2015 was a very special year for me, it is the year when i started to invest on myself, reading book takes a big part in my life.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-05-05T11:43:04+01:00</updated><id>/</id><title>Ismail Mechbal</title><subtitle>Ismail Mechbal journey in wonderland.</subtitle><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><entry><title>Scaling Agile at Spotify</title><link href="/scaling-agile-spotify/" rel="alternate" type="text/html" title="Scaling Agile at Spotify" /><published>2016-05-04T00:00:00+01:00</published><updated>2016-05-04T00:00:00+01:00</updated><id>/scaling-agile-spotify</id><content type="html" xml:base="/scaling-agile-spotify/">&lt;p&gt;2015 was a very special year for me, it is the year when i started to invest on myself, reading book takes a big part in my life.
 I use &lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quot;&gt;Goodreads&lt;/a&gt; to keep track of the book i read, my motivation for blogging about books i read is Derek Sivers, &lt;a href=&quot;https://sivers.org/book&quot;&gt;Books finished recently&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
@@ -54,48 +40,55 @@ Patterson, Kerry&lt;/p&gt;
 Croll, Alistair&lt;/p&gt;
 
 &lt;p&gt;Speak Like Churchill, Stand Like Lincoln: 21 Powerful Secrets of History’s Greatest Speakers
-Humes, James C.&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;2015 was a very special year for me, it is the year when i started to invest on myself, reading book takes a big part in my life.
-I use &lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quot;&gt;Goodreads&lt;/a&gt; to keep track of the book i read, my motivation for blogging about books i read is Derek Sivers, &lt;a href=&quot;https://sivers.org/book&quot;&gt;Books finished recently&lt;/a&gt;.&lt;/p&gt;
+Humes, James C.&lt;/p&gt;</content><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><summary>2015 was a very special year for me, it is the year when i started to invest on myself, reading book takes a big part in my life.
+I use Goodreads to keep track of the book i read, my motivation for blogging about books i read is Derek Sivers, Books finished recently.</summary></entry><entry><title>Books i read in 2015</title><link href="/ismail-mechbal-reading-list-2015/" rel="alternate" type="text/html" title="Books i read in 2015" /><published>2016-04-21T00:00:00+01:00</published><updated>2016-04-21T00:00:00+01:00</updated><id>/ismail-mechbal-reading-list-2015</id><content type="html" xml:base="/ismail-mechbal-reading-list-2015/">&lt;p&gt;2015 was awesome, i invested on thy self &amp;amp; i came back to reading books.&lt;/p&gt;
 
-</description>
-        
-        <pubDate>Thu, 21 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com/blog/ismail-mechbal-reading-list-2015/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/ismail-mechbal-reading-list-2015/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Lesson on perseverence and resilience Meru</title>
-        <description>&lt;p&gt;A great lesson on perseverence and resilience can be learned from the extreme sport documentary “Meru”, back in 2008, three elite climbers Conrad Anker, Jimmy Chin and Renan Ozturk attempted their first ascent of the precarious Shark’s Fin route on Mount Meru, in the Indian Himalayas, due to the high risk of losing fingers and toes, if not their lives, the team decided to give up just a few hundred feet from the summit.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quot;&gt;Goodreads&lt;/a&gt; is a great way to keep track of the books you’ve read, my motivation for blogging about books i read is Derek Sivers, &lt;a href=&quot;https://sivers.org/book&quot;&gt;Books finished recently&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
+Ries, Eric *&lt;/p&gt;
+
+&lt;p&gt;The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers
+by Ben Horowitz *
+ 4.16 avg rating — 12,692 ratings — published 2014
+A lot of people talk about how great it is to start a business, but only Ben Horowitz is brutally honest about how hard it is to run one. In The Hard Thing About Hard Things, Ben Horowitz, cofounder o …more&lt;/p&gt;
+
+&lt;p&gt;Essentialism: The Disciplined Pursuit of Less
+Essentialism: The Disciplined Pursuit of Less
+McKeown, Greg&lt;/p&gt;
+
+&lt;p&gt;The Antidote: Happiness for People Who Can’t Stand Positive Thinking
+Burkeman, Oliver&lt;/p&gt;
+
+&lt;p&gt;Inspired: How To Create Products Customers Love
+Cagan, Marty&lt;/p&gt;
+
+&lt;p&gt;Getting Real: The Smarter, Faster, Easier Way to Build a Web Application
+Signals, 37&lt;/p&gt;
+
+&lt;p&gt;Lean UX: Applying Lean Principles to Improve User Experience
+Gothelf, Jeff&lt;/p&gt;
+
+&lt;p&gt;Running Lean: Iterate from Plan A to a Plan That Works
+Maurya, Ash *&lt;/p&gt;
+
+&lt;p&gt;Purple Cow: Transform Your Business by Being Remarkable
+by Seth Godin&lt;/p&gt;
+
+&lt;p&gt;Crucial Conversations: Tools for Talking When Stakes Are High
+Patterson, Kerry&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Lean Analytics: Use Data to Build a Better Startup Faster
+Croll, Alistair&lt;/p&gt;
+
+&lt;p&gt;Speak Like Churchill, Stand Like Lincoln: 21 Powerful Secrets of History’s Greatest Speakers
+Humes, James C.&lt;/p&gt;</content><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><summary>2015 was awesome, i invested on thy self &amp;amp; i came back to reading books.</summary></entry><entry><title>Lesson on perseverence and resilience Meru</title><link href="/lesson-on-perseverence-from-mount-meru/" rel="alternate" type="text/html" title="Lesson on perseverence and resilience Meru" /><published>2016-04-20T00:00:00+01:00</published><updated>2016-04-20T00:00:00+01:00</updated><id>/lesson-on-perseverence-from-mount-meru</id><content type="html" xml:base="/lesson-on-perseverence-from-mount-meru/">&lt;p&gt;A great lesson on perseverence and resilience can be learned from the extreme sport documentary “Meru”, back in 2008, three elite climbers Conrad Anker, Jimmy Chin and Renan Ozturk attempted their first ascent of the precarious Shark’s Fin route on Mount Meru, in the Indian Himalayas, due to the high risk of losing fingers and toes, if not their lives, the team decided to give up just a few hundred feet from the summit.&lt;/p&gt;
 
 &lt;p&gt;In 2011, they went back to the Shark’s Fin on Mount Meru for a new attempt, this time with some important lessons learned, they made it.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YvS6O9lVkkg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        
-          <description>&lt;p&gt;A great lesson on perseverence and resilience can be learned from the extreme sport documentary “Meru”, back in 2008, three elite climbers Conrad Anker, Jimmy Chin and Renan Ozturk attempted their first ascent of the precarious Shark’s Fin route on Mount Meru, in the Indian Himalayas, due to the high risk of losing fingers and toes, if not their lives, the team decided to give up just a few hundred feet from the summit.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com/blog/lesson-on-perseverence-from-mount-meru/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/lesson-on-perseverence-from-mount-meru/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Positive thinking - How to Become a Positive Broadcaster with Michelle Gielan</title>
-        <description>&lt;p&gt;The last episode of the unmistakable creative is quite interesting, discussing Positive thinking, i used to complain quite a lot (and i still do sometimes), but i’ve been improving over the last year.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YvS6O9lVkkg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><summary>A great lesson on perseverence and resilience can be learned from the extreme sport documentary “Meru”, back in 2008, three elite climbers Conrad Anker, Jimmy Chin and Renan Ozturk attempted their first ascent of the precarious Shark’s Fin route on Mount Meru, in the Indian Himalayas, due to the high risk of losing fingers and toes, if not their lives, the team decided to give up just a few hundred feet from the summit.</summary></entry><entry><title>Positive thinking - How to Become a Positive Broadcaster with Michelle Gielan</title><link href="/how-to-become-a-positive-broadcaster-michelle-gielan/" rel="alternate" type="text/html" title="Positive thinking - How to Become a Positive Broadcaster with Michelle Gielan" /><published>2016-04-19T00:00:00+01:00</published><updated>2016-04-19T00:00:00+01:00</updated><id>/how-to-become-a-positive-broadcaster-michelle-gielan</id><content type="html" xml:base="/how-to-become-a-positive-broadcaster-michelle-gielan/">&lt;p&gt;The last episode of the unmistakable creative is quite interesting, discussing Positive thinking, i used to complain quite a lot (and i still do sometimes), but i’ve been improving over the last year.&lt;/p&gt;
 
 &lt;p&gt;Michelle Gielan, is happiness researcher and former CBS news anchor, she authored the book &lt;a href=&quot;http://www.amazon.com/Broadcasting-Happiness-Igniting-Sustaining-Positive/dp/1941631304&quot;&gt;Broadcasting Happiness: The Science of Igniting and Sustaining Positive Change&lt;/a&gt;&lt;/p&gt;
 
@@ -111,25 +104,7 @@ I use &lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quo
 
 &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259274447&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://unmistakablecreative.com/podcast/how-to-become-a-positive-broadcaster-with-michelle-gielan&quot;&gt;Unmistakable creative link&lt;/a&gt;&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;The last episode of the unmistakable creative is quite interesting, discussing Positive thinking, i used to complain quite a lot (and i still do sometimes), but i’ve been improving over the last year.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Tue, 19 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com/blog/how-to-become-a-positive-broadcaster-michelle-gielan/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/how-to-become-a-positive-broadcaster-michelle-gielan/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Seth Godin startup school 2012</title>
-        <description>&lt;p&gt;Recently i had the pleasure to listen to Seth Godin recording where he guides thirty entrepreneurs through a workshop exploring how they can build and run their dream business.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://unmistakablecreative.com/podcast/how-to-become-a-positive-broadcaster-with-michelle-gielan&quot;&gt;Unmistakable creative link&lt;/a&gt;&lt;/p&gt;</content><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><summary>The last episode of the unmistakable creative is quite interesting, discussing Positive thinking, i used to complain quite a lot (and i still do sometimes), but i’ve been improving over the last year.</summary></entry><entry><title>Seth Godin startup school 2012</title><link href="/seth-godin-startup-school-2012/" rel="alternate" type="text/html" title="Seth Godin startup school 2012" /><published>2016-04-18T00:00:00+01:00</published><updated>2016-04-18T00:00:00+01:00</updated><id>/seth-godin-startup-school-2012</id><content type="html" xml:base="/seth-godin-startup-school-2012/">&lt;p&gt;Recently i had the pleasure to listen to Seth Godin recording where he guides thirty entrepreneurs through a workshop exploring how they can build and run their dream business.&lt;/p&gt;
 
 &lt;p&gt;This podcast is a great source of inspiration, here is Seth’s welcome message:&lt;/p&gt;
 
@@ -143,25 +118,7 @@ I use &lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quo
 
 &lt;p&gt;And a summary too:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://beingremarkable.me/blog/25-insights-from-seth-godins-startup-school&quot;&gt;25 insights from Seth Godin’s startup school&lt;/a&gt;&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;Recently i had the pleasure to listen to Seth Godin recording where he guides thirty entrepreneurs through a workshop exploring how they can build and run their dream business.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Mon, 18 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com/blog/seth-godin-startup-school-2012/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/seth-godin-startup-school-2012/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Opensource email client - Nylas</title>
-        <description>&lt;p&gt;Checkout Nylas, an opensource email client app. As they describes it, Nylas N1 is the most delightful way to manage your email.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://beingremarkable.me/blog/25-insights-from-seth-godins-startup-school&quot;&gt;25 insights from Seth Godin’s startup school&lt;/a&gt;&lt;/p&gt;</content><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><summary>Recently i had the pleasure to listen to Seth Godin recording where he guides thirty entrepreneurs through a workshop exploring how they can build and run their dream business.</summary></entry><entry><title>Opensource email client - Nylas</title><link href="/opensource-email-client-nylas/" rel="alternate" type="text/html" title="Opensource email client - Nylas" /><published>2016-04-18T00:00:00+01:00</published><updated>2016-04-18T00:00:00+01:00</updated><id>/opensource-email-client-nylas</id><content type="html" xml:base="/opensource-email-client-nylas/">&lt;p&gt;Checkout Nylas, an opensource email client app. As they describes it, Nylas N1 is the most delightful way to manage your email.&lt;/p&gt;
 
 &lt;p&gt;Under the hood, it’s packed with dozens of powerful features.&lt;/p&gt;
 
@@ -182,25 +139,7 @@ I use &lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quo
 
 &lt;p&gt;For the procrastinators out their like me, the first thing i do is to disable notifications in settings.&lt;/p&gt;
 
-&lt;p&gt;Visit &lt;a href=&quot;https://nylas.com&quot;&gt;Nylas N1&lt;/a&gt;.&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;Checkout Nylas, an opensource email client app. As they describes it, Nylas N1 is the most delightful way to manage your email.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Mon, 18 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com/blog/opensource-email-client-nylas/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/opensource-email-client-nylas/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>UX Cancel buttons</title>
-        <description>&lt;p&gt;I was working on a form, and i was wondering whether i should have a cancel button or not, the cancel button would only take the user back to the previous page.&lt;/p&gt;
+&lt;p&gt;Visit &lt;a href=&quot;https://nylas.com&quot;&gt;Nylas N1&lt;/a&gt;.&lt;/p&gt;</content><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><summary>Checkout Nylas, an opensource email client app. As they describes it, Nylas N1 is the most delightful way to manage your email.</summary></entry><entry><title>UX Cancel buttons</title><link href="/ux-cancel-buttons/" rel="alternate" type="text/html" title="UX Cancel buttons" /><published>2016-04-17T00:00:00+01:00</published><updated>2016-04-17T00:00:00+01:00</updated><id>/ux-cancel-buttons</id><content type="html" xml:base="/ux-cancel-buttons/">&lt;p&gt;I was working on a form, and i was wondering whether i should have a cancel button or not, the cancel button would only take the user back to the previous page.&lt;/p&gt;
 
 &lt;p&gt;The following article by &lt;a href=&quot;https://www.nngroup.com/articles/&quot;&gt;Jacob Nielsen&lt;/a&gt; answer the question, here is an excerpt:&lt;/p&gt;
 
@@ -214,25 +153,7 @@ The Web is not an application environment, and it usually doesn’t have dialog 
 &lt;p&gt;Cancel is mainly useful for multi-step dialogs where the user has progressed past one or more pages with actions. At this time, pressing the Back button will not undo these actions and it would be better if the user would click Cancel.
 &amp;lt;/em&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.nngroup.com/articles/reset-and-cancel-buttons/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;I was working on a form, and i was wondering whether i should have a cancel button or not, the cancel button would only take the user back to the previous page.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sun, 17 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com/blog/ux-cancel-buttons/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/ux-cancel-buttons/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Some quotes to get back again to blogging</title>
-        <description>&lt;p&gt;I took a break from blogging to work on the self, myself and I.
+&lt;p&gt;&lt;a href=&quot;https://www.nngroup.com/articles/reset-and-cancel-buttons/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;</content><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><summary>I was working on a form, and i was wondering whether i should have a cancel button or not, the cancel button would only take the user back to the previous page.</summary></entry><entry><title>Some quotes to get back again to blogging</title><link href="/some-quotes-to-get-back-again/" rel="alternate" type="text/html" title="Some quotes to get back again to blogging" /><published>2016-04-13T00:00:00+01:00</published><updated>2016-04-13T00:00:00+01:00</updated><id>/some-quotes-to-get-back-again</id><content type="html" xml:base="/some-quotes-to-get-back-again/">&lt;p&gt;I took a break from blogging to work on the self, myself and I.
 &lt;a href=&quot;http://fourhourworkweek.com/podcast/&quot;&gt;Tim Ferris podcast&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://unmistakablecreative.com/&quot;&gt;the unmistakable creative&lt;/a&gt; have been a great source of inspiration, highly recommend to everyone.&lt;/p&gt;
 
 &lt;p&gt;The following quotes, caught my attention.&lt;/p&gt;
@@ -243,26 +164,8 @@ The Web is not an application environment, and it usually doesn’t have dialog 
 
 &lt;p&gt;&lt;em&gt;What you know doesn’t mean shit - Tony Robbins&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Listen to &lt;a href=&quot;http://fourhourworkweek.com/2014/10/15/money-master-the-game/&quot;&gt;Tony Robbins on Morning Routines, Peak Performance, and Mastering Money&lt;/a&gt; interview with Tim Ferriss.&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;I took a break from blogging to work on the self, myself and I.
-&lt;a href=&quot;http://fourhourworkweek.com/podcast/&quot;&gt;Tim Ferris podcast&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://unmistakablecreative.com/&quot;&gt;the unmistakable creative&lt;/a&gt; have been a great source of inspiration, highly recommend to everyone.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Wed, 13 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com/blog/some-quotes-to-get-back-again/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/some-quotes-to-get-back-again/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Hello Ruby: Adventures in Coding</title>
-        <description>&lt;p&gt;I recently came across an interesting book called “Hello Ruby: Adventures in Coding” by Linda Liukas (founder of Rails Girls), i just ordered the Swedish version for my daughter who will be extremely happy reading it together with me!&lt;/p&gt;
+&lt;p&gt;Listen to &lt;a href=&quot;http://fourhourworkweek.com/2014/10/15/money-master-the-game/&quot;&gt;Tony Robbins on Morning Routines, Peak Performance, and Mastering Money&lt;/a&gt; interview with Tim Ferriss.&lt;/p&gt;</content><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><summary>I took a break from blogging to work on the self, myself and I.
+Tim Ferris podcast &amp;amp; the unmistakable creative have been a great source of inspiration, highly recommend to everyone.</summary></entry><entry><title>Hello Ruby: Adventures in Coding</title><link href="/hello-ruby-adventures-in-coding/" rel="alternate" type="text/html" title="Hello Ruby: Adventures in Coding" /><published>2015-12-14T00:00:00+00:00</published><updated>2015-12-14T00:00:00+00:00</updated><id>/hello-ruby-adventures-in-coding</id><content type="html" xml:base="/hello-ruby-adventures-in-coding/">&lt;p&gt;I recently came across an interesting book called “Hello Ruby: Adventures in Coding” by Linda Liukas (founder of Rails Girls), i just ordered the Swedish version for my daughter who will be extremely happy reading it together with me!&lt;/p&gt;
 
 &lt;p&gt;The book introduces programming concepts without requiring a computer at all, using Ruby, the main character, a small girl with a huge imagination, and the determination to solve any puzzle.&lt;/p&gt;
 
@@ -274,102 +177,11 @@ The Web is not an application environment, and it usually doesn’t have dialog 
 
 &lt;p&gt;Watch, Linda’s talk on TED, The poetry of programming.&lt;/p&gt;
 
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-jRREn6ifEQ?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;I recently came across an interesting book called “Hello Ruby: Adventures in Coding” by Linda Liukas (founder of Rails Girls), i just ordered the Swedish version for my daughter who will be extremely happy reading it together with me!&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Mon, 14 Dec 2015 00:00:00 +0000</pubDate>
-        <link>http://sboura.com/blog/hello-ruby-adventures-in-coding/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/hello-ruby-adventures-in-coding/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>upgrade Passenger + Nginx on Ubuntu</title>
-        <description>&lt;p&gt;This week Passenger announced a security update and i would like to note how easy it is to upgrade Passenger + Nginx:&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-jRREn6ifEQ?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</content><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><summary>I recently came across an interesting book called “Hello Ruby: Adventures in Coding” by Linda Liukas (founder of Rails Girls), i just ordered the Swedish version for my daughter who will be extremely happy reading it together with me!</summary></entry><entry><title>upgrade Passenger + Nginx on Ubuntu</title><link href="/upgrade-passenger-nginx-ubuntu/" rel="alternate" type="text/html" title="upgrade Passenger + Nginx on Ubuntu" /><published>2015-12-09T00:00:00+00:00</published><updated>2015-12-09T00:00:00+00:00</updated><id>/upgrade-passenger-nginx-ubuntu</id><content type="html" xml:base="/upgrade-passenger-nginx-ubuntu/">&lt;p&gt;This week Passenger announced a security update and i would like to note how easy it is to upgrade Passenger + Nginx:&lt;/p&gt;
 
 &lt;p&gt;If Passenger was installed through the Phusion Passenger APT repository, then you can upgrade Passenger along with Nginx through APT using the following command:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;upgrade&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;That’s all&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;This week Passenger announced a security update and i would like to note how easy it is to upgrade Passenger + Nginx:&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Wed, 09 Dec 2015 00:00:00 +0000</pubDate>
-        <link>http://sboura.com/blog/upgrade-passenger-nginx-ubuntu/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/upgrade-passenger-nginx-ubuntu/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Add email confirmation to an already running rails application:</title>
-        <description>&lt;p&gt;To add email confirmation to an already running rails application:&lt;/p&gt;
-
-&lt;h3 id=&quot;add-devise-confirmable-to-your-modelsuserrb&quot;&gt;Add devise :confirmable to your models/user.rb&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;devise&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:registerable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:confirmable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;add-a-new-migration&quot;&gt;Add a new migration&lt;/h3&gt;
-&lt;p&gt;rails g migration add_confirmable_to_devise&lt;/p&gt;
-
-&lt;p&gt;Make sure the contents of the migration is:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AddConfirmableToDevise&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Migration&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;change&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;change_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;string&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;:confirmation_token&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:confirmed_at&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:confirmation_sent_at&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;string&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;:unconfirmed_email&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;add_index&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:confirmation_token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:unique&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Then run your migration with rake db:migrate.&lt;/p&gt;
-
-&lt;h3 id=&quot;if-you-get-the-following-error&quot;&gt;If you get the following error:&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;ActionView&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Template&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Error&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;Missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to!&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Please&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;provide&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:host&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parameter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default_url_options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:host&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:only_path&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Just add the following line of code to your development, test &amp;amp; production environments file:
-config/environments/development.rb&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;action_mailer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;default_url_options&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:host&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;localhost:3000&#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;just-in-case-you-missed-it-fix-the-mailer-sender&quot;&gt;Just in case you missed it, fix the mailer sender.&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#config/initializers/devise.rb&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mailer_sender&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;hi@youremail.com&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        
-          <description>&lt;p&gt;To add email confirmation to an already running rails application:&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
-        <link>http://sboura.com/blog/add-email-confirmation-to-rails-application/</link>
-        <guid isPermaLink="true">http://sboura.com/blog/add-email-confirmation-to-rails-application/</guid>
-        
-        
-      </item>
-      
-    
-  </channel>
-</rss>
+&lt;p&gt;That’s all&lt;/p&gt;</content><author><name>Ismail Mechbal</name><email>ismail@unik.ma</email></author><summary>This week Passenger announced a security update and i would like to note how easy it is to upgrade Passenger + Nginx:</summary></entry></feed>

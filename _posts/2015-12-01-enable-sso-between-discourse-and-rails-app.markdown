@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "Enable SSO between discourse and your rails app"
 date:   2015-12-01
 ---

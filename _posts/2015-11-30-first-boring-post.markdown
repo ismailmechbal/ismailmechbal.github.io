@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "My first boring post"
 date:   2015-11-30
 ---

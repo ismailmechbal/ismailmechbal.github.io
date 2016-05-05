@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "Hello Ruby: Adventures in Coding"
 date:   2015-12-14
 ---

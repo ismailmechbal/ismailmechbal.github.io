@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "Lesson on perseverence and resilience Meru"
 date:   2016-04-20
 ---

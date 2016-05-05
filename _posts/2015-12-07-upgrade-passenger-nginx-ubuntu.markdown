@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "upgrade Passenger + Nginx on Ubuntu"
 date:   2015-12-09
 ---

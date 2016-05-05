@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "Positive thinking - How to Become a Positive Broadcaster with Michelle Gielan"
 date:   2016-04-19
 ---

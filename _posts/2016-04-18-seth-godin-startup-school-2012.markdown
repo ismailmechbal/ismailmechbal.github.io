@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "Seth Godin startup school 2012"
 date:   2016-04-18
 ---

@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: archive
+author_profile: true
 title:  "Opensource email client - Nylas"
 date:   2016-04-18
 ---

@@ -1,0 +1,13 @@
+# main links links
+main:
+  - title: "About"
+    url: /
+
+  - title: "Writing"
+    url: /posts
+
+  - title: "Now"
+    url: /now
+
+  - title: "Resume"
+    url: /resume
