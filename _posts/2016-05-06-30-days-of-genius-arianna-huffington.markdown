@@ -13,4 +13,6 @@ Today's guest is Arianna Huffington, she mentioned the importance of getting a s
 <em>You are not your job.</em>, a quote on the ability to distinguish yourself from your job, if you do so, you become less able to take risks and to be detached from periodic stress.
 To be successful, you have to be fearless, bold and creative.
 
-[Link to watch the video](https://www.creativelive.com/30-days-of-genius/arianna-huffington?utm_source=sboura)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uzZPZsE5Bnk" frameborder="0" allowfullscreen></iframe>
+
+[Link to Creativelive](https://www.creativelive.com/30-days-of-genius/arianna-huffington?utm_source=sboura)
