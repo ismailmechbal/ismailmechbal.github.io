@@ -12,7 +12,8 @@ else
 end
 {% endhighlight %}
 
-I won't tell the story behind Jante's law (check Wikipedia or other sources).
+<img src="https://media.giphy.com/media/14aE5KQKRynSN2/giphy.gif" alt="Jante law">
+
 Jante's law is a set of ten rules, very common in Scandinavia:
 
 1. You're not to think you are anything special.
