@@ -1,0 +1,12 @@
+---
+layout: archive
+author_profile: true
+title: "Werunik - We deliver Fucking awesome work!"
+date: 2016-05-21
+---
+
+I just launched "Werunik", my new fucking web development company!
+
+We help startups build their MVP (MV kick my ass!)
+
+[Visit Werunik ](http://werunik.com)
