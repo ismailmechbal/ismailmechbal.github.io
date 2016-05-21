@@ -7,6 +7,8 @@ date: 2016-05-21
 
 I just launched "Werunik", my new fucking web development company!
 
+<img src="/images/posts/2016/05/logo-werunik-small.svg" alt="We'r unik Logo" class="logo float-right" />
+
 We help startups build their MVP (MV kick my ass!)
 
 [Visit Werunik ](http://werunik.com)
