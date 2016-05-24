@@ -6,5 +6,5 @@ date: 2016-05-23
 ---
 
 # Speechless!
-
-<img src="/images/posts/2016/05/sakina-miss-dad.jpg" alt="Sakina miss dad" />
+Based on my daughter request, i removed the text she wrote to me.
+Sorry Sakina!
