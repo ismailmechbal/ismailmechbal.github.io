@@ -11,6 +11,7 @@ Excerpt from DHH article "We only hire the best"
 [Read the full article](https://m.signalvnoise.com/we-only-hire-the-best-c711c330fc2e#.e2as6n17q)
 
 Celeste Headlee said in her TED talk "10 ways to have a better conversation"
+
 <strong><em>Everybody is an expert in something, Everyone you will ever meet knows something you don't.</em></strong>
 
 [Watch Celeste TED talk](https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation?language=en#t-628462)
