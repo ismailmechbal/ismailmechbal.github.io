@@ -14,6 +14,6 @@ I just learned about Kelly Johnson, and how he disrupted the military aviation i
 
 [Click on this link to read the complete 14 rules](http://www.lockheedmartin.com/us/aeronautics/skunkworks/14rules.html)
 
-I highly recommend watching this Keynote from Nicolas, where I learned about Kelly's rules.
+I highly recommend watching this Keynote from Nickolas, where I learned about Kelly's rules.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ggPE-JHzfAM" frameborder="0" allowfullscreen></iframe>
