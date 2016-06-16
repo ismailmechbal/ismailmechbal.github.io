@@ -1,1 +1,1 @@
-https://www.sboura.com
+{% capture base_path %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
