@@ -1,13 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ismail Mechbal</title>
-    <description>Ismail Mechbal journey in wonderland.</description>
-    <link>http://sboura.com//</link>
-    <atom:link href="http://sboura.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 May 2016 22:22:15 +0100</pubDate>
-    <lastBuildDate>Fri, 20 May 2016 22:22:15 +0100</lastBuildDate>
+    <title>Ismail Mechbal Full Stack Developer &amp; UX/UI Designer</title>
+    <description>Ismail Mechbal is a passionate web developer, love to tackle difficult challenges and ride awesome waves.</description>
+    <link>https://sboura.com/</link>
+    <atom:link href="https://sboura.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Jun 2016 14:23:06 +0000</pubDate>
+    <lastBuildDate>Thu, 16 Jun 2016 14:23:06 +0000</lastBuildDate>
     <generator>Jekyll v3.0.5</generator>
+    
+      
+      <item>
+        <title>Your job vs. your project</title>
+        <description>&lt;p&gt;An interesting article from Seth Godin on the importance of projects.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Jobs are finite, specified and something we &#39;get&#39;. Doing a job makes us defensive, it limits our thinking. The goal is to do just enough, not get in trouble, meet spec. When in doubt, seek deniability.&lt;/p&gt;
+
+&lt;p&gt;Projects are open-ended, chosen and ours. Working on a project opens the door to possibility. Projects are about better, about new frontiers, about making change happen. When in doubt, dare.&lt;/p&gt;
+
+&lt;p&gt;Jobs demand meetings and the key word is &#39;later&#39;. Projects encourage &#39;now.&#39;&lt;/p&gt;
+
+&lt;p&gt;You can get paid for a job (or a project). Or not. The pay isn&#39;t the point, the approach is.&lt;/p&gt;
+
+&lt;p&gt;Some people don&#39;t have a project, only a job. That&#39;s a choice, and it&#39;s a shame. Some people work to turn their project into a job, getting them the worst of both. If all you&#39;ve ever had is jobs (a habit that&#39;s encouraged starting in first grade), it&#39;s difficult to see just how easy it is to transform your work into a project.&lt;/p&gt;
+
+&lt;p&gt;Welcome to projectworld.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://sethgodin.typepad.com/seths_blog/2016/06/your-job-vs-your-project.html&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;An interesting article from Seth Godin on the importance of projects.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+        <link>https://sboura.com/your-job-vs-your-project/</link>
+        <guid isPermaLink="true">https://sboura.com/your-job-vs-your-project/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Kelly&#39;s 14 Rules applied to software engineering</title>
+        <description>&lt;p&gt;I just learned about Kelly Johnson, and how he disrupted the military aviation industry with 14 simple rules, I copied some of these rules that can be applied to software engineering.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The number of people having any connection with the project must be restricted in an almost vicious manner. Use a small number of good people (10% to 25% compared to the so-called normal systems)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A very simple drawing and drawing release system with great flexibility for making changes must be provided.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There must be a minimum number of reports required, but important work must be recorded thoroughly.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.lockheedmartin.com/us/aeronautics/skunkworks/14rules.html&quot;&gt;Click on this link to read the complete 14 rules&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I highly recommend watching this Keynote from Nickolas, where I learned about Kelly’s rules.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ggPE-JHzfAM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        
+          <description>&lt;p&gt;I just learned about Kelly Johnson, and how he disrupted the military aviation industry with 14 simple rules, I copied some of these rules that can be applied to software engineering.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
+        <link>https://sboura.com/kelly-johnson-14-rules-applied-to-software-engineering/</link>
+        <guid isPermaLink="true">https://sboura.com/kelly-johnson-14-rules-applied-to-software-engineering/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>The crème de la crème!</title>
+        <description>&lt;p&gt;Excerpt from DHH article “We only hire the best”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;The best are generally the best because they aren’t typical. Because they came at things from a different angle that gave them a unique perspective, which happens to provide more insights than the widely-distributed approaches.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://m.signalvnoise.com/we-only-hire-the-best-c711c330fc2e#.e2as6n17q&quot;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Celeste Headlee said in her TED talk “10 ways to have a better conversation”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Everybody is an expert in something, Everyone you will ever meet knows something you don’t.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation?language=en#t-628462&quot;&gt;Watch Celeste TED talk&lt;/a&gt;&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;Excerpt from DHH article “We only hire the best”&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 03 Jun 2016 00:00:00 +0100</pubDate>
+        <link>https://sboura.com/the-creme-de-la-creme/</link>
+        <guid isPermaLink="true">https://sboura.com/the-creme-de-la-creme/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>My job application to Basecamp</title>
+        <description>&lt;p&gt;Today, 3rd June 2016, while listening to &lt;a href=&quot;https://soundcloud.com/the-journal/jason-fried&quot;&gt;Jason’s podcast with Kevin Rose, The Journal&lt;/a&gt;, I thought holy crap, why didn’t I ever apply to Basecamp!&lt;/p&gt;
+
+&lt;p&gt;Everything happens for a reason, and the reason it is I will apply today.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Dear Mercedes,&lt;/p&gt;
+
+&lt;p&gt;Jason &amp;amp; David have been a great source of inspiration to me for more than 8 years. SVN, Getting Real, Rework &amp;amp; Work in progress have all helped me shape my views in design, product, programming and most importantly life.&lt;/p&gt;
+
+&lt;p&gt;I remember three years ago when I had to switch from PHP and choose between Python or Ruby, I chose the latter because of Ruby on Rails and 37signals philosophy.&lt;/p&gt;
+
+&lt;p&gt;I consider myself lucky, I have a constant desire to learn, I love keeping up to date with technology as well as reading and writing.&lt;/p&gt;
+
+&lt;p&gt;I’ve been introduced to web design since my early age, I’m 33 now, I developed my first website in 1998, a phishing website, not very proud of, thankfully it was just for fun and learning purpose.&lt;/p&gt;
+
+&lt;p&gt;In 2007, I had an opportunity to study a Master degree in Human Computer Interaction at Uppsala university, usability together with design principles that I learned from Ryan &amp;amp; Jason helped me understand what makes great products.&lt;/p&gt;
+
+&lt;p&gt;I can’t count how many times I listened to &lt;a href=&quot;https://www.youtube.com/watch?v=0CDXJ6bMkMY&quot;&gt;DHH talk at Startup School 08&lt;/a&gt;, it highly inspires me and motivates me whenever I’m working on a new product, which I tried several times and failed proudly; I’m more than confident now that a great team and a great execution is key to success, however I also learned that life is also about giving, thank you for Ruby on Rails and please contemplate on this quote:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;What most people need to learn in life is how to love people and use things instead of using people and loving things.&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;My satisfaction doesn’t come by excelling at one skill, I prefer to learn and use as many skills as I can by applying the 80/20 rule, therefore you might find me either UX’ing, coding, blogging, marketing, cooking, supporting customers, selling, mentoring or even surfing :)&lt;/p&gt;
+
+&lt;p&gt;In 2012, I launched &lt;a href=&quot;http://www.unik.ma&quot;&gt;Unik&lt;/a&gt;, a web agency where we had the pleasure to work with amazing clients from all around the world, recently I launched &lt;a href=&quot;https://werunik.com?utm_source=blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=basecamp_marketing_designer_job&quot;&gt;Werunik&lt;/a&gt;, a &lt;strong&gt;“Fucking web development agency”&lt;/strong&gt; as I like to call it.&lt;/p&gt;
+
+&lt;p&gt;During my free time, I love sharing some stories, ideas, technical tips on my personal blog, &lt;a href=&quot;http://sboura.com/resume?utm_source=blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=basecamp_marketing_designer_job&quot;&gt;sboura.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I also started teaching web design to Sakina, my 8 years old daughter, here is a sample of what we’ve been baking:
+&lt;a href=&quot;http://sakinamechbal.github.io/&quot;&gt;http://sakinamechbal.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, I’m looking forward having my name and illustration on
+https://basecamp.com/about/team&lt;/p&gt;
+
+&lt;p&gt;You can find my resume on the following link:
+&lt;a href=&quot;http://sboura.com/resume?utm_source=blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=basecamp_marketing_designer_job&quot;&gt;sboura.com/resume&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Psst: I have two secrets:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I published this job application to my personal blog, on this link.&lt;/li&gt;
+  &lt;li&gt;I use Nylas N1, an open source email client, I highly recommend it to keep track of email opens and clicks, by which I will take further actions based on your interaction with this email :)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;–
+Ismail Mechbal
+&lt;a href=&quot;https://werunik.com?utm_source=blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=basecamp_marketing_designer_job&quot;&gt;werunik.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;“Hope is not a strategy, luck is not a factor, failure is not an option” - James Cameron&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;Today, 3rd June 2016, while listening to &lt;a href=&quot;https://soundcloud.com/the-journal/jason-fried&quot;&gt;Jason’s podcast with Kevin Rose, The Journal&lt;/a&gt;, I thought holy crap, why didn’t I ever apply to Basecamp!&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 03 Jun 2016 00:00:00 +0100</pubDate>
+        <link>https://sboura.com/my-job-application-to-basecamp/</link>
+        <guid isPermaLink="true">https://sboura.com/my-job-application-to-basecamp/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Power of silence</title>
+        <description>
+</description>
+        
+          <description>
+</description>
+        
+        <pubDate>Thu, 02 Jun 2016 00:00:00 +0100</pubDate>
+        <link>https://sboura.com/power-of-silence/</link>
+        <guid isPermaLink="true">https://sboura.com/power-of-silence/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Meeting in the office a meeting in the hall</title>
+        <description>&lt;h3 id=&quot;what-a-great-inspiration-to-start-your-day-off&quot;&gt;What a great inspiration to start your day off&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8X1kPxhB2zQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;lyrics&quot;&gt;Lyrics&lt;/h3&gt;
+
+&lt;p&gt;Mrs. Landers was a health nut,&lt;/p&gt;
+
+&lt;p&gt;she cooked food in a wok.&lt;/p&gt;
+
+&lt;p&gt;Mr. Harris was her boyfriend,&lt;/p&gt;
+
+&lt;p&gt;and he had a great big..&lt;/p&gt;
+
+&lt;p&gt;cock-a-doodle-doodle the rooster just won’t quit,&lt;/p&gt;
+
+&lt;p&gt;and I don’t want my breakfast,&lt;/p&gt;
+
+&lt;p&gt;because it tastes like..&lt;/p&gt;
+
+&lt;p&gt;shitzus make good house pets,&lt;/p&gt;
+
+&lt;p&gt;they’re cuddly and sweet,&lt;/p&gt;
+
+&lt;p&gt;monkeys aren’t good to have ‘cos they like to beat their..&lt;/p&gt;
+
+&lt;p&gt;meeting in the office a meeting in the hall,&lt;/p&gt;
+
+&lt;p&gt;the boss he wants to see you so you can suck his..&lt;/p&gt;
+
+&lt;p&gt;Balzac was a writer he lived with Alan Funt,&lt;/p&gt;
+
+&lt;p&gt;Mrs. Roberts didn’t like him but that’s ‘cause she’s a..&lt;/p&gt;
+
+&lt;p&gt;contaminated water can really make you sick,&lt;/p&gt;
+
+&lt;p&gt;your bladder gets infected and blood comes out your..&lt;/p&gt;
+
+&lt;p&gt;dictate what im saying ‘cos it will bring you luck,&lt;/p&gt;
+
+&lt;p&gt;and if you all don’t like it, I don’t give a flying fuck.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;From: South Park - Wendy’s Cunt Song&lt;/em&gt;&lt;/p&gt;
+</description>
+        
+          <description>&lt;h3 id=&quot;what-a-great-inspiration-to-start-your-day-off&quot;&gt;What a great inspiration to start your day off&lt;/h3&gt;
+
+</description>
+        
+        <pubDate>Thu, 02 Jun 2016 00:00:00 +0100</pubDate>
+        <link>https://sboura.com/meeting-in-the-office-a-meeting-in-the-hall/</link>
+        <guid isPermaLink="true">https://sboura.com/meeting-in-the-office-a-meeting-in-the-hall/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>I am speechless</title>
+        <description>&lt;h1 id=&quot;speechless&quot;&gt;Speechless!&lt;/h1&gt;
+&lt;p&gt;Based on my daughter request, i removed the text she wrote to me.
+Sorry Sakina!&lt;/p&gt;
+</description>
+        
+          <description>&lt;h1 id=&quot;speechless&quot;&gt;Speechless!&lt;/h1&gt;
+&lt;p&gt;Based on my daughter request, i removed the text she wrote to me.
+Sorry Sakina!&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 23 May 2016 00:00:00 +0100</pubDate>
+        <link>https://sboura.com/im-speechless/</link>
+        <guid isPermaLink="true">https://sboura.com/im-speechless/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Werunik - We deliver Fucking awesome work!</title>
+        <description>&lt;p&gt;I just launched “Werunik”, my new fucking web development company!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/2016/05/logo-werunik-small.svg&quot; alt=&quot;We&#39;r unik Logo&quot; class=&quot;logo float-right&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We help startups build their MVP (MV kick my ass!)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://werunik.com&quot;&gt;Visit Werunik &lt;/a&gt;&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;I just launched “Werunik”, my new fucking web development company!&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 21 May 2016 00:00:00 +0100</pubDate>
+        <link>https://sboura.com/werunik/</link>
+        <guid isPermaLink="true">https://sboura.com/werunik/</guid>
+        
+        
+      </item>
+      
     
       
       <item>
@@ -19,8 +305,8 @@
 </description>
         
         <pubDate>Fri, 20 May 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com//i-finally-made-it-i-became-a-billionnaire/</link>
-        <guid isPermaLink="true">http://sboura.com//i-finally-made-it-i-became-a-billionnaire/</guid>
+        <link>https://sboura.com/i-finally-made-it-i-became-a-billionnaire/</link>
+        <guid isPermaLink="true">https://sboura.com/i-finally-made-it-i-became-a-billionnaire/</guid>
         
         
       </item>
@@ -66,273 +352,8 @@
 </description>
         
         <pubDate>Thu, 12 May 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com//law-of-jante-sweden/</link>
-        <guid isPermaLink="true">http://sboura.com//law-of-jante-sweden/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Guy Goma predicted Spotify 10 years ago!</title>
-        <description>&lt;p&gt;It’s 10 years since Guy Goma became a celebrity after he was mistaken for an internet expert and interviewed on BBC News TV.
-The unemployed computer technician had been at the BBC for a job interview. But the graduate from the Congo gained worldwide attention after a mix-up saw him interviewed on air instead of Guy Kewney&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e6Y2uQn_wvc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://j.gifs.com/VOyXkz.gif?resize=*:*&amp;amp;output-quality=&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Guy_Goma&quot;&gt;Guy Goma on Wikipedia&lt;/a&gt;&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;It’s 10 years since Guy Goma became a celebrity after he was mistaken for an internet expert and interviewed on BBC News TV.
-The unemployed computer technician had been at the BBC for a job interview. But the graduate from the Congo gained worldwide attention after a mix-up saw him interviewed on air instead of Guy Kewney&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 12 May 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com//guy-goma-predicted-spotify-10-years-ago/</link>
-        <guid isPermaLink="true">http://sboura.com//guy-goma-predicted-spotify-10-years-ago/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Google links turn black experiment </title>
-        <description>&lt;p&gt;Today Google links just turned black, i guess this is some kind of A/B testing.
-The experiment is taking place in some part of the world, in Netherland the links are black, however in Morocco they’re still blue.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;&quot; src=&quot;/images/posts/2016/05/google-links-turn-black.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This post on Reddit discuss this subject further.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/google/comments/4i7re9/unclicked_links_in_google_search_are_black_now?utm_source=sboura&quot;&gt;Link to Reddit post&lt;/a&gt;&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;Today Google links just turned black, i guess this is some kind of A/B testing.
-The experiment is taking place in some part of the world, in Netherland the links are black, however in Morocco they’re still blue.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sat, 07 May 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com//google-links-turn-black/</link>
-        <guid isPermaLink="true">http://sboura.com//google-links-turn-black/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>30 days of genius with Arianna Huffington</title>
-        <description>&lt;p&gt;30 Days of Genius is free video series hosted by Chase Jarvis, a renowned photographer and CreativeLive Founder.
-Chris interviews 30 of the brightest creative and entrepreneurial minds of our time.&lt;/p&gt;
-
-&lt;p&gt;Today’s guest is Arianna Huffington, she mentioned the importance of getting a solid night’s sleep.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;You are not your job.&lt;/em&gt;, a quote on the ability to distinguish yourself from your job, if you do so, you become less able to take risks and to be detached from periodic stress.
-To be successful, you have to be fearless, bold and creative.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uzZPZsE5Bnk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.creativelive.com/30-days-of-genius/arianna-huffington?utm_source=sboura&quot;&gt;Link to Creativelive&lt;/a&gt;&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;30 Days of Genius is free video series hosted by Chase Jarvis, a renowned photographer and CreativeLive Founder.
-Chris interviews 30 of the brightest creative and entrepreneurial minds of our time.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Fri, 06 May 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com//30-days-of-genius-arianna-huffington/</link>
-        <guid isPermaLink="true">http://sboura.com//30-days-of-genius-arianna-huffington/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Scaling Agile at Spotify</title>
-        <description>&lt;p&gt;The way Spotify scales its Agile methodology is using a Matrix that includes “Tribes, Squads, Chapters &amp;amp; Guilds”.&lt;/p&gt;
-
-&lt;p&gt;This document highlight how Spotify (a disruptive Unicorn Swedish startup) deals with it multiple teams and thousands of members.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/1018963/Articles/SpotifyScaling.pdf&quot;&gt;Link to download the PDF&lt;/a&gt;&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;The way Spotify scales its Agile methodology is using a Matrix that includes “Tribes, Squads, Chapters &amp;amp; Guilds”.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 05 May 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com//scaling-agile-spotify/</link>
-        <guid isPermaLink="true">http://sboura.com//scaling-agile-spotify/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Books i read in 2015</title>
-        <description>&lt;p&gt;2015 was awesome, i invested on thy self &amp;amp; i came back to reading books, below are the books i read:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/review/list/46965709-ismail&quot;&gt;Goodreads&lt;/a&gt; is a great way to keep track of the books you’ve read, my motivation for blogging about books i read is Derek Sivers, &lt;a href=&quot;https://sivers.org/book&quot;&gt;Books finished recently&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;life&quot;&gt;Life&lt;/h2&gt;
-
-&lt;h4 id=&quot;essentialism-the-disciplined-pursuit-of-less---emgreg-mckeownem&quot;&gt;Essentialism: The Disciplined Pursuit of Less - &lt;em&gt;Greg McKeown&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-antidote-happiness-for-people-who-cant-stand-positive-thinking---emoliver-burkemanem&quot;&gt;The Antidote: Happiness for People Who Can’t Stand Positive Thinking - &lt;em&gt;Oliver Burkeman&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;crucial-conversations-tools-for-talking-when-stakes-are-high---emkerry-pattersonem&quot;&gt;Crucial Conversations: Tools for Talking When Stakes Are High - &lt;em&gt;Kerry Patterson&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;elon-musk-tesla-spacex-and-the-quest-for-a-fantastic-future---emashlee-vanceem&quot;&gt;Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future - &lt;em&gt;Ashlee Vance&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;steve-jobs---emwalter-isaacsonem&quot;&gt;Steve Jobs - &lt;em&gt;Walter Isaacson&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h2 id=&quot;startup&quot;&gt;Startup&lt;/h2&gt;
-
-&lt;h4 id=&quot;the-lean-startup-how-todays-entrepreneurs-use-continuous-innovation-to-create-radically-successful-businesses---emeric-riesem&quot;&gt;The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses - &lt;em&gt;Eric ries&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-hard-thing-about-hard-things-building-a-business-when-there-are-no-easy-answers---emben-horowitzem&quot;&gt;The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers - &lt;em&gt;Ben Horowitz&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;inspired-how-to-create-products-customers-love---emmarty-caganem&quot;&gt;Inspired: How To Create Products Customers Love - &lt;em&gt;Marty Cagan&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;getting-real-the-smarter-faster-easier-way-to-build-a-web-application---emjason-fried--david-heinemeier-hanssonem&quot;&gt;Getting Real: The Smarter, Faster, Easier Way to Build a Web Application - &lt;em&gt;Jason Fried &amp;amp; David Heinemeier Hansson&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;lean-ux-applying-lean-principles-to-improve-user-experience---emjeff-gothelfem&quot;&gt;Lean UX: Applying Lean Principles to Improve User Experience - &lt;em&gt;Jeff Gothelf&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;running-lean-iterate-from-plan-a-to-a-plan-that-works---emash-mauryaem&quot;&gt;Running Lean: Iterate from Plan A to a Plan That Works - &lt;em&gt;Ash Maurya&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;how-google-works---emeric-schmidtem&quot;&gt;How Google Works - &lt;em&gt;Eric Schmidt&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-100-startup-reinvent-the-way-you-make-a-living-do-what-you-love-and-create-a-new-future---emchris-guillebeauem&quot;&gt;The $100 Startup: Reinvent the Way You Make a Living, Do What You Love, and Create a New Future - &lt;em&gt;Chris Guillebeau&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-startup-owners-manual-the-step-by-step-guide-for-building-a-great-company---emsteven-blankem&quot;&gt;The Startup Owner’s Manual: The Step-By-Step Guide for Building a Great Company - &lt;em&gt;Steven Blank&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-founders-dilemmas-anticipating-and-avoiding-the-pitfalls-that-can-sink-a-startup---emnoam-wassermanem&quot;&gt;The Founder’s Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup - &lt;em&gt;Noam Wasserman&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h2 id=&quot;product&quot;&gt;Product&lt;/h2&gt;
-
-&lt;h4 id=&quot;lean-from-the-trenches-managing-large-scale-projects-with-kanban---emhenrik-knibergem&quot;&gt;Lean from the Trenches Managing Large-Scale Projects with Kanban - &lt;em&gt;Henrik Kniberg&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;growth-hacker-marketing-a-primer-on-the-future-of-pr-marketing-and-advertising---emryan-holidayem&quot;&gt;Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising - &lt;em&gt;Ryan Holiday&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;growth-hacker-marketing-a-primer-on-the-future-of-pr-marketing-and-advertising---emryan-holidayem-1&quot;&gt;Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising - &lt;em&gt;Ryan Holiday&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-phoenix-project-emgene-kim-george-spafford-and-kevin-behrem&quot;&gt;The Phoenix Project &lt;em&gt;Gene Kim, George Spafford, and Kevin Behr&lt;/em&gt;&lt;/h4&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;currently-reading-in-2016&quot;&gt;Currently reading in 2016&lt;/h1&gt;
-
-&lt;h4 id=&quot;lean-analytics-use-data-to-build-a-better-startup-faster---emalistair-crollem&quot;&gt;Lean Analytics: Use Data to Build a Better Startup Faster - &lt;em&gt;Alistair, Croll&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;speak-like-churchill-stand-like-lincoln-21-powerful-secrets-of-historys-greatest-speakers---emjames-c-humesem&quot;&gt;Speak Like Churchill, Stand Like Lincoln: 21 Powerful Secrets of History’s Greatest Speakers - &lt;em&gt;James C Humes&lt;/em&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;purple-cow-transform-your-business-by-being-remarkable---emseth-godinem&quot;&gt;Purple Cow: Transform Your Business by Being Remarkable - &lt;em&gt;Seth Godin&lt;/em&gt;&lt;/h4&gt;
-</description>
-        
-          <description>&lt;p&gt;2015 was awesome, i invested on thy self &amp;amp; i came back to reading books, below are the books i read:&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 21 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com//ismail-mechbal-reading-list-2015/</link>
-        <guid isPermaLink="true">http://sboura.com//ismail-mechbal-reading-list-2015/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Lesson on perseverence and resilience Meru</title>
-        <description>&lt;p&gt;A great lesson on perseverence and resilience can be learned from the extreme sport documentary “Meru”, back in 2008, three elite climbers Conrad Anker, Jimmy Chin and Renan Ozturk attempted their first ascent of the precarious Shark’s Fin route on Mount Meru, in the Indian Himalayas, due to the high risk of losing fingers and toes, if not their lives, the team decided to give up just a few hundred feet from the summit.&lt;/p&gt;
-
-&lt;p&gt;In 2011, they went back to the Shark’s Fin on Mount Meru for a new attempt, this time with some important lessons learned, they made it.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YvS6O9lVkkg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        
-          <description>&lt;p&gt;A great lesson on perseverence and resilience can be learned from the extreme sport documentary “Meru”, back in 2008, three elite climbers Conrad Anker, Jimmy Chin and Renan Ozturk attempted their first ascent of the precarious Shark’s Fin route on Mount Meru, in the Indian Himalayas, due to the high risk of losing fingers and toes, if not their lives, the team decided to give up just a few hundred feet from the summit.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com//lesson-on-perseverence-from-mount-meru/</link>
-        <guid isPermaLink="true">http://sboura.com//lesson-on-perseverence-from-mount-meru/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Positive thinking - How to Become a Positive Broadcaster with Michelle Gielan</title>
-        <description>&lt;p&gt;The last episode of the unmistakable creative is quite interesting, discussing Positive thinking, i used to complain quite a lot (and i still do sometimes), but i’ve been improving over the last year.&lt;/p&gt;
-
-&lt;p&gt;Michelle Gielan, is happiness researcher and former CBS news anchor, she authored the book &lt;a href=&quot;http://www.amazon.com/Broadcasting-Happiness-Igniting-Sustaining-Positive/dp/1941631304&quot;&gt;Broadcasting Happiness: The Science of Igniting and Sustaining Positive Change&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Some points Michelle discuss:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Finding a way or making one with our challenges&lt;/li&gt;
-  &lt;li&gt;The power of how we start conversations&lt;/li&gt;
-  &lt;li&gt;7 Strategies for being more influential in a positive way&lt;/li&gt;
-  &lt;li&gt;Using the power of positive habits to alleviate depression&lt;/li&gt;
-  &lt;li&gt;Dealing with the negative people in our lives&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259274447&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://unmistakablecreative.com/podcast/how-to-become-a-positive-broadcaster-with-michelle-gielan&quot;&gt;Unmistakable creative link&lt;/a&gt;&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;The last episode of the unmistakable creative is quite interesting, discussing Positive thinking, i used to complain quite a lot (and i still do sometimes), but i’ve been improving over the last year.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Tue, 19 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com//how-to-become-a-positive-broadcaster-michelle-gielan/</link>
-        <guid isPermaLink="true">http://sboura.com//how-to-become-a-positive-broadcaster-michelle-gielan/</guid>
-        
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Seth Godin startup school 2012</title>
-        <description>&lt;p&gt;Recently i had the pleasure to listen to Seth Godin recording where he guides thirty entrepreneurs through a workshop exploring how they can build and run their dream business.&lt;/p&gt;
-
-&lt;p&gt;This podcast is a great source of inspiration, here is Seth’s welcome message:&lt;/p&gt;
-
-&lt;p&gt;In the summer of 2012, I had an amazing opportunity to spend three days with a group of extremely motivated entrepreneurs. People right at the beginning of building their project, launching their organization. During those three days, I took them on a guided tour of some of the questions they were going to have to wrestle with, some of the difficult places they were going to strand up and say “this is me, this is what I’m making”.&lt;/p&gt;
-
-&lt;p&gt;There you go, the links:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/seth-godins-startup-school/id566985370?mt=2&quot;&gt;Itunes&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://soundcloud.com/startup-school&quot;&gt;Soundcloud&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And a summary too:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://beingremarkable.me/blog/25-insights-from-seth-godins-startup-school&quot;&gt;25 insights from Seth Godin’s startup school&lt;/a&gt;&lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;Recently i had the pleasure to listen to Seth Godin recording where he guides thirty entrepreneurs through a workshop exploring how they can build and run their dream business.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Mon, 18 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://sboura.com//seth-godin-startup-school-2012/</link>
-        <guid isPermaLink="true">http://sboura.com//seth-godin-startup-school-2012/</guid>
+        <link>https://sboura.com/law-of-jante-sweden/</link>
+        <guid isPermaLink="true">https://sboura.com/law-of-jante-sweden/</guid>
         
         
       </item>
