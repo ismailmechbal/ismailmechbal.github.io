@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ismail Mechbal"
+title                    : "Ismail Mechbal Full Stack Developer & UX/UI Designer"
 title_separator          : "-"
 name                     : "Ismail Mechbal"
-description              : "Ismail Mechbal journey in wonderland."
+description              : "Ismail Mechbal is a passionate web developer, love to tackle difficult challenges and ride awesome waves."
 url                      : "https://sboura.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
