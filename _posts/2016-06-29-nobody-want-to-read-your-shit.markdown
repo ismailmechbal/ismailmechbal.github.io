@@ -1,9 +1,11 @@
 ---
 layout: archive
 author_profile: true
-title: "Nobody wants to read your shit"
+title: "Nobody wants to read your sh*t"
 date: 2016-06-29
 ---
+<img src="/images/posts/2016/06/nobody-wants-to-read-your-shit.png" alt="Nobody wants to read your shit" />
+
 <strong>Nobody wants to read your shit</strong>, a book I highly recommend for marketers.
 
 A snapshot from Chapter 4:
