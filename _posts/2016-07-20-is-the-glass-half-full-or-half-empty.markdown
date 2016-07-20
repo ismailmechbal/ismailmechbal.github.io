@@ -9,15 +9,16 @@ date: 2016-07-20
 I ennjoy reading this short post from Seth Godin on optimism
 
 <blockquote>
-Is the glass half full or half empty?
+<p>Is the glass half full or half empty?</p>
 
-The pessimist sees what's present today and can only imagine eventual decline. The glass is already half empty and it's only going to get worse.
+<p>The pessimist sees what's present today and can only imagine eventual decline. The glass is already half empty and it's only going to get worse.</p>
 
-The optimist understands that there's a difference between today and tomorrow. The glass is half full, with room for more. The vision is based on possibility, the future tense, not the present one.
+<p>The optimist understands that there's a difference between today and tomorrow. The glass is half full, with room for more. The vision is based on possibility, the future tense, not the present one.</p>
 
-Pessimists have trouble making room for possibility, and thus possibility has trouble finding room for pessimists.
+<p>Pessimists have trouble making room for possibility, and thus possibility has trouble finding room for pessimists.</p>
 
-As soon as we realize that there is a difference between right now and what might happen next, we can move ourselves to the posture of possibility, to the self-fulfilling engine of optimism.
+<p>As soon as we realize that there is a difference between right now and what might happen next, we can move ourselves to the posture of possibility, to the self-fulfilling engine of optimism.</p>
+
 </blockquote>
 
 
