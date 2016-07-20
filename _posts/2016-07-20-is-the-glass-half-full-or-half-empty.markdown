@@ -6,7 +6,7 @@ date: 2016-07-20
 ---
 <img src="/images/posts/2016/07/is-the-glass-half-full-or-half-empty.jpg" alt="Is the glass half full or half empty?" />
 
-I ennjoy reading this short post from Seth Godin on optimism
+I enjoyed reading this short post from Seth Godin on optimism
 
 <blockquote>
 <p>Is the glass half full or half empty?</p>
@@ -23,3 +23,5 @@ I ennjoy reading this short post from Seth Godin on optimism
 
 
 Image credit: HRMexplorer's Blog – Human Resources
+
+[Source](http://sethgodin.typepad.com/seths_blog/2016/05/the-possibility-of-optimism-the-optimism-of-possibility.html)
