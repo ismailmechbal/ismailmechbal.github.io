@@ -6,7 +6,7 @@ date: 2016-07-24
 ---
 <img src="/images/posts/2016/07/care-about-others.jpg" alt="10 ways to have a better conversation" />
 
-In the age of endless distration, I find myself regularly ashamed of how I communicate with others, Celeste Headlee gave a great TED Talk on better conversation, I do my best to work it on, below a summary of the talk:
+In the age of endless distraction, I find myself regularly ashamed of how I communicate with others, Celeste Headlee gave a great TED Talk on better conversation, definitely worth it, below a summary of the talk:
 
 1. Don't multitask
 
