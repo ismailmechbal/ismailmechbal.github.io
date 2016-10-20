@@ -11,3 +11,4 @@ date: 2016-10-19
 <p>Who is cleaning the streets in the freeezing winter? A swede? No Effind way!</p>
 
 <p>I understand that many are not well educated, however education is something you acquire very easily if, of course, there is a willingness from the system; you don't need an education to have a logical thinking or more importantly to acquire social skills.</p>
+<p>Almost anyone can accomplish some tasks that requires a minimum of training such as checking emails, planning, social media etc.</p>
