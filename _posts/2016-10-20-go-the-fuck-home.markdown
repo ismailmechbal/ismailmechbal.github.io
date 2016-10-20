@@ -18,3 +18,5 @@ date: 2016-10-20
 <p>I copied and pasted the notes from <a href="https://swizec.com/blog/go-fuck-home/swizec/7139">Swizec Teller</a> website.</p>
 
 <p>Stop reading this and go fucking watch the talk!</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YBoS-svKdgs" frameborder="0" allowfullscreen></iframe>
