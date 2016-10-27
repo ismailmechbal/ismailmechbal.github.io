@@ -15,3 +15,5 @@ Well that toilet does actually analyse your poo, extract key ingredients you've 
 This guy also told me that the smell goes attached as well, however he asked to keep it a secret.
 
 Vive la Suède!
+
+#poowithshame #bustedbymypoo #poocops
