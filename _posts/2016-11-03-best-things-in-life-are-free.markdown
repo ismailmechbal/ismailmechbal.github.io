@@ -10,7 +10,9 @@ For the last few years, I've been living my life with a minimalist approach, I'v
 
 I've been eating daily egg for breakfast, salad for lunch and lentils or bissara soup for dinner for several months and I never been fitter.
 
-To keep it short, I would rather enjoy and appreciate what life offers me than get trapped into the fallacy of consumerism.
+Surfing is marvelous, with only a small investment to buy the equipment it becomes free, when you surf your mind transition to the state of the moment and leave behind every garbage that people throw at you.
+
+I would rather enjoy and appreciate the free stuff life offers than get trapped into the fallacy of consumerism.
 
 /END
 
