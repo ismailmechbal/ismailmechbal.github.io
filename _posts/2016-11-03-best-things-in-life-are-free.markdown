@@ -6,7 +6,7 @@ date: 2016-11-03
 ---
 A famous quote by, Hmmm, forgot his name, it doesn't matter.
 
-For the last few years, I've been living my life with a minimalist approach, I've got few black tshirts, two to three jeans, one shirt that looks fantastic without the need to be ironed out.
+For the last few years, I've been living my life with a minimalist approach, I've got a few black tshirts, two to three jeans, one shirt that looks fantastic without the need to be ironed out.
 
 I've been eating daily egg for breakfast, salad for lunch and lentils or bissara soup for dinner for several months and I never been fitter.
 
