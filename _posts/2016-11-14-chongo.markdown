@@ -1,0 +1,15 @@
+---
+layout: archive
+author_profile: true
+title: "Chongo"
+date: 2016-11-14
+---
+
+<p>Chongo, a legendary hero and a spiritual leader to every rock climber in the planet. He write books like "The Homeless Interpretation of Quantum Mechanics" and "How to Be Bitchin"</p>
+<p>And yet, he is a homeless guy.</p>
+<p>Will you neglect his wisdom simply for his appearance?</p>
+
+<p>Chongo describes Technology by citing a fascinating quote from Einstein</p>
+<h4>"A perfection of means and a confusion of aims seems to be our main problem, Einstein"</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aAFONKwqKKU" frameborder="0" allowfullscreen></iframe>
